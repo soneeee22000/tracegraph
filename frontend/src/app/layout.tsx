@@ -1,21 +1,41 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
   subsets: ["latin"],
+  variable: "--font-geist-sans",
 });
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
   subsets: ["latin"],
+  variable: "--font-geist-mono",
 });
 
 export const metadata: Metadata = {
   title: "TraceGraph — GraphRAG Citation Explorer",
   description:
-    "Interactive knowledge graph visualization with citation-grounded AI. Trace every answer back to its source.",
+    "Trace every AI answer back to its source. Interactive knowledge graph visualization with citation-grounded retrieval.",
+  keywords: [
+    "GraphRAG",
+    "knowledge graph",
+    "citation",
+    "RAG",
+    "AI traceability",
+  ],
+  authors: [{ name: "Pyae Sone" }],
+  openGraph: {
+    title: "TraceGraph — GraphRAG Citation Explorer",
+    description:
+      "Trace every AI answer back to its source. Interactive knowledge graph visualization with citation-grounded retrieval.",
+    type: "website",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#09090b",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -26,9 +46,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} dark`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="font-sans antialiased bg-[#09090b] text-[#fafafa]">
+        {children}
+      </body>
     </html>
   );
 }
