@@ -19,8 +19,7 @@ from app.models import (
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
-    """Initialize GraphRAG engine on startup."""
-    await engine.initialize()
+    """Lazy initialization — engine initializes on first use."""
     yield
 
 

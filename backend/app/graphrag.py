@@ -5,8 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from lightrag import LightRAG, QueryParam
-from lightrag.llm import openai_complete_if_cache, openai_embedding
-from lightrag.utils import EmbeddingFunc
+from lightrag.llm.openai import openai_complete_if_cache, openai_embed
 
 from app.config import settings
 from app.models import (
@@ -34,38 +33,28 @@ class GraphRAGEngine:
         working_dir = settings.working_dir
         os.makedirs(working_dir, exist_ok=True)
 
+        os.environ["OPENAI_API_KEY"] = settings.llm_api_key
+
+        async def llm_func(
+            prompt: str, system_prompt: str | None = None, **kwargs: Any
+        ) -> str:
+            return await openai_complete_if_cache(
+                model=settings.llm_model,
+                prompt=prompt,
+                system_prompt=system_prompt,
+                api_key=settings.llm_api_key,
+                base_url=settings.llm_api_base,
+                **kwargs,
+            )
+
         self._rag = LightRAG(
             working_dir=working_dir,
-            llm_model_func=self._llm_func,
-            embedding_func=EmbeddingFunc(
-                embedding_dim=1536,
-                max_token_size=8192,
-                func=self._embedding_func,
-            ),
+            llm_model_func=llm_func,
+            llm_model_name=settings.llm_model,
+            embedding_func=openai_embed,
         )
+        await self._rag.initialize_storages()
         self._initialized = True
-
-    async def _llm_func(
-        self, prompt: str, system_prompt: str | None = None, **kwargs: Any
-    ) -> str:
-        """LLM completion function using OpenAI-compatible API."""
-        return await openai_complete_if_cache(
-            model=settings.llm_model,
-            prompt=prompt,
-            system_prompt=system_prompt,
-            api_key=settings.llm_api_key,
-            base_url=settings.llm_api_base,
-            **kwargs,
-        )
-
-    async def _embedding_func(self, texts: list[str]) -> list[list[float]]:
-        """Embedding function using OpenAI-compatible API."""
-        return await openai_embedding(
-            texts=texts,
-            model=settings.embedding_model,
-            api_key=settings.embedding_api_key,
-            base_url=settings.embedding_api_base,
-        )
 
     async def ingest_document(self, content: str, filename: str) -> dict[str, Any]:
         """Ingest a single document into the knowledge graph."""
@@ -148,7 +137,7 @@ class GraphRAGEngine:
     async def _get_graph_data(self) -> GraphData:
         """Extract the full knowledge graph for visualization."""
         if not self._rag:
-            return GraphData()
+            return await self._get_graph_from_storage()
 
         nodes: list[GraphNode] = []
         edges: list[GraphEdge] = []
