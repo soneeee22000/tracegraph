@@ -14,27 +14,38 @@ export default function AnswerPanel({
   if (comparisonResult) {
     return (
       <div className="flex flex-col gap-3 overflow-y-auto p-3">
-        <h4 className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
-          RAG vs GraphRAG Comparison
-        </h4>
+        <div className="flex items-center gap-2">
+          <h4 className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+            Side-by-Side Comparison
+          </h4>
+          <span className="rounded-full bg-[#f59e0b]/10 px-2 py-0.5 text-[10px] font-semibold text-[#f59e0b]">
+            Compare Mode
+          </span>
+        </div>
 
-        {/* Naive/Vector RAG */}
-        <div className="rounded-md border border-border bg-background p-3">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="rounded bg-secondary px-2 py-0.5 text-[10px] font-semibold text-secondary-foreground">
-              Vector RAG (Naive)
+        {/* Naive/Vector RAG — visually weaker */}
+        <div className="rounded-md border border-[#ef4444]/20 bg-[#ef4444]/5 p-3">
+          <div className="flex items-center justify-between mb-2">
+            <span className="rounded bg-[#ef4444]/20 px-2 py-0.5 text-[10px] font-semibold text-[#ef4444]">
+              Naive RAG (Vector Only)
+            </span>
+            <span className="text-[9px] text-muted-foreground">
+              No graph traversal
             </span>
           </div>
-          <p className="text-xs text-foreground leading-relaxed whitespace-pre-wrap">
+          <p className="text-xs text-secondary-foreground leading-relaxed whitespace-pre-wrap opacity-80">
             {comparisonResult.naive_answer}
           </p>
         </div>
 
-        {/* GraphRAG */}
-        <div className="rounded-md border border-primary/30 bg-primary/5 p-3">
-          <div className="flex items-center gap-2 mb-2">
-            <span className="rounded bg-primary px-2 py-0.5 text-[10px] font-semibold text-primary-foreground">
+        {/* GraphRAG — visually stronger */}
+        <div className="rounded-md border border-[#10b981]/30 bg-[#10b981]/5 p-3">
+          <div className="flex items-center justify-between mb-2">
+            <span className="rounded bg-[#10b981]/20 px-2 py-0.5 text-[10px] font-semibold text-[#10b981]">
               GraphRAG (Hybrid)
+            </span>
+            <span className="text-[9px] text-muted-foreground">
+              Graph + Vector + Communities
             </span>
           </div>
           <p className="text-xs text-foreground leading-relaxed whitespace-pre-wrap">
