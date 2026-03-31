@@ -401,18 +401,18 @@ graph LR
         V1 -->|"Top-K"| L1["LLM"] --> A1["Answer"]
     end
 
-    subgraph graph ["GraphRAG"]
+    subgraph graphrag ["GraphRAG"]
         direction LR
-        D2["Docs"] --> EX["Extract<br/>Entities"] --> KG["Knowledge<br/>Graph"]
+        D2["Docs"] --> EX["Extract Entities"] --> KG["Knowledge Graph"]
         D2 --> C2["Chunk"] --> E2["Embed"] --> V2["Vector DB"]
-        Q2["Query"] --> HS["Hybrid<br/>Search"]
+        Q2["Query"] --> HS["Hybrid Search"]
         KG --> HS
         V2 --> HS
-        HS --> L2["LLM"] --> A2["Answer +<br/>Citations"]
+        HS --> L2["LLM"] --> A2["Answer + Citations"]
     end
 
     style trad fill:#1c1917,stroke:#78716c,color:#a8a29e
-    style graph fill:#1e1b4b,stroke:#6366f1,color:#c7d2fe
+    style graphrag fill:#1e1b4b,stroke:#6366f1,color:#c7d2fe
 ```
 
 **The key insight:** GraphRAG doesn't just find text that _looks similar_ — it traverses a structured knowledge graph to discover _related_ information across documents, then grounds every claim in verifiable entity chains.
