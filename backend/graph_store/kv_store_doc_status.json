@@ -1,0 +1,206 @@
+{
+  "doc-5a0ea94d36e16aefbbdb1e52a48a4da2": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "content_summary": "[Source: 01_graphrag_overview.txt]\n\nTitle: Graph-Based Retrieval Augmented Generation for Knowledge-Intensive Tasks\nDomain: AI Infrastructure, Knowledge Retrieval\n\nGraphRAG represents a paradigm shift in retrieval-augmented generation by combining se...",
+    "content_length": 2083,
+    "created_at": "2026-03-31T21:44:31.646477+00:00",
+    "updated_at": "2026-03-31T21:44:54.584371+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234431_afb2a50f",
+    "metadata": {
+      "processing_start_time": 1774993471,
+      "processing_end_time": 1774993494
+    }
+  },
+  "doc-6f15d160ead15b98ce0ab2ffb63b362a": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "content_summary": "[Source: 02_knowledge_graphs_healthcare.txt]\n\nTitle: Knowledge Graphs in Healthcare Decision Support Systems\nDomain: Healthcare AI, Clinical Decision Support\n\nKnowledge graphs have emerged as a foundational technology for healthcare AI systems that r...",
+    "content_length": 2221,
+    "created_at": "2026-03-31T21:44:54.612270+00:00",
+    "updated_at": "2026-03-31T21:45:32.203294+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234454_9de8cb93",
+    "metadata": {
+      "processing_start_time": 1774993494,
+      "processing_end_time": 1774993532
+    }
+  },
+  "doc-f5641ec4e871244a183dca81ab477996": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "content_summary": "[Source: 03_vaccine_safety_monitoring.txt]\n\nTitle: Real-World Evidence and Vaccine Safety Monitoring Through Graph-Based Analysis\nDomain: Vaccine Research, Pharmacovigilance\n\nVaccine safety monitoring represents one of the most critical applications ...",
+    "content_length": 2517,
+    "created_at": "2026-03-31T21:45:32.217278+00:00",
+    "updated_at": "2026-03-31T21:46:09.371407+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234532_600035be",
+    "metadata": {
+      "processing_start_time": 1774993532,
+      "processing_end_time": 1774993569
+    }
+  },
+  "doc-dcf301088ebc124f69bef8c917d94389": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "content_summary": "[Source: 04_entity_extraction_nlp.txt]\n\nTitle: Named Entity Recognition and Relation Extraction for Knowledge Graph Construction\nDomain: NLP, Information Extraction\n\nThe quality of a knowledge graph is fundamentally determined by the accuracy of its ...",
+    "content_length": 2477,
+    "created_at": "2026-03-31T21:46:09.392411+00:00",
+    "updated_at": "2026-03-31T21:46:28.631196+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234609_c092a36f",
+    "metadata": {
+      "processing_start_time": 1774993569,
+      "processing_end_time": 1774993588
+    }
+  },
+  "doc-13937f8efa1e649021b2562c5c4ce466": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "content_summary": "[Source: 05_citation_grounded_ai.txt]\n\nTitle: Citation-Grounded AI: Moving Beyond Hallucination to Verifiable Truth\nDomain: AI Safety, Trustworthy AI\n\nThe fundamental challenge of large language models in enterprise and regulated environments is the ...",
+    "content_length": 2590,
+    "created_at": "2026-03-31T21:46:28.654711+00:00",
+    "updated_at": "2026-03-31T21:46:56.240699+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234628_7f57640d",
+    "metadata": {
+      "processing_start_time": 1774993588,
+      "processing_end_time": 1774993616
+    }
+  },
+  "doc-7ebd7175a1f26b79908061ab57b517a0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "content_summary": "[Source: 06_graph_databases_ai.txt]\n\nTitle: Graph Databases as AI Infrastructure: From Neo4j to Purpose-Built Knowledge Stores\nDomain: Database Technology, AI Infrastructure\n\nGraph databases have evolved from niche analytical tools to critical infras...",
+    "content_length": 2584,
+    "created_at": "2026-03-31T21:46:56.266641+00:00",
+    "updated_at": "2026-03-31T21:47:34.603861+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234656_667b3399",
+    "metadata": {
+      "processing_start_time": 1774993616,
+      "processing_end_time": 1774993654
+    }
+  },
+  "doc-05b5cd1a96253bf7b78dbf8d300adadd": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "content_summary": "[Source: 07_llm_hallucination_enterprise.txt]\n\nTitle: Addressing LLM Hallucination in Enterprise Decision-Making Systems\nDomain: Enterprise AI, AI Safety\n\nLarge language model hallucination poses an existential risk to enterprise AI adoption. When an...",
+    "content_length": 2665,
+    "created_at": "2026-03-31T21:47:34.635372+00:00",
+    "updated_at": "2026-03-31T21:48:03.240536+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234734_b038c857",
+    "metadata": {
+      "processing_start_time": 1774993654,
+      "processing_end_time": 1774993683
+    }
+  },
+  "doc-884ce470afe0321907650814428fae37": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "content_summary": "[Source: 08_retrieval_architectures.txt]\n\nTitle: Hybrid Retrieval Architectures: Combining Vector Search with Graph Traversal\nDomain: Information Retrieval, AI Systems Design\n\nThe evolution of retrieval-augmented generation has produced three distinc...",
+    "content_length": 2779,
+    "created_at": "2026-03-31T21:48:03.276658+00:00",
+    "updated_at": "2026-03-31T21:48:34.190338+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234803_6b271b83",
+    "metadata": {
+      "processing_start_time": 1774993683,
+      "processing_end_time": 1774993714
+    }
+  },
+  "doc-d384bfeec843c653b989ee99228eeab0": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "content_summary": "[Source: 09_community_detection.txt]\n\nTitle: Community Detection and Hierarchical Summarization in Knowledge Graphs\nDomain: Graph Algorithms, Data Science\n\nCommunity detection is the algorithmic backbone of GraphRAG's global search capability. By ide...",
+    "content_length": 2780,
+    "created_at": "2026-03-31T21:48:34.237348+00:00",
+    "updated_at": "2026-03-31T21:48:54.297131+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234834_3e33815f",
+    "metadata": {
+      "processing_start_time": 1774993714,
+      "processing_end_time": 1774993734
+    }
+  },
+  "doc-bf191c61f24f06aa1b4b87fbbe8f257b": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "content_summary": "[Source: 10_eu_ai_act_compliance.txt]\n\nTitle: EU AI Act Compliance Requirements for AI-Powered Decision Support Systems\nDomain: AI Regulation, Legal Compliance\n\nThe European Union's AI Act, which entered into force in August 2024, establishes the wor...",
+    "content_length": 3032,
+    "created_at": "2026-03-31T21:48:54.360404+00:00",
+    "updated_at": "2026-03-31T21:49:25.485458+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234854_4828cd2c",
+    "metadata": {
+      "processing_start_time": 1774993734,
+      "processing_end_time": 1774993765
+    }
+  },
+  "doc-374ba872e4abd46815b626ad73ecb0b9": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "content_summary": "[Source: 11_clinical_trials_ai.txt]\n\nTitle: AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning\nDomain: Clinical Research, Drug Development\n\nClinical trial data represents one of the most valuable yet underutilized sources of medical k...",
+    "content_length": 2868,
+    "created_at": "2026-03-31T21:49:25.548179+00:00",
+    "updated_at": "2026-03-31T21:49:58.787683+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234925_3af5eed9",
+    "metadata": {
+      "processing_start_time": 1774993765,
+      "processing_end_time": 1774993798
+    }
+  },
+  "doc-f13ffed8f2c81a7ff9b29900ecd42a3e": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "content_summary": "[Source: 12_ai_safety_grounding.txt]\n\nTitle: Grounding Techniques for Safe and Reliable AI Systems\nDomain: AI Safety, Machine Learning\n\nAI grounding refers to the set of techniques that anchor language model outputs to verifiable external knowledge, ...",
+    "content_length": 2720,
+    "created_at": "2026-03-31T21:49:58.863387+00:00",
+    "updated_at": "2026-03-31T21:50:25.613075+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260331_234958_5da63be7",
+    "metadata": {
+      "processing_start_time": 1774993798,
+      "processing_end_time": 1774993825
+    }
+  }
+}

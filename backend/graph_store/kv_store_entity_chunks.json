@@ -1,0 +1,1604 @@
+{
+  "Graph-Based Retrieval Augmented Generation": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "count": 1,
+    "create_time": 1774993492,
+    "update_time": 1774993492,
+    "_id": "Graph-Based Retrieval Augmented Generation"
+  },
+  "AI Infrastructure": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "count": 1,
+    "create_time": 1774993492,
+    "update_time": 1774993492,
+    "_id": "AI Infrastructure"
+  },
+  "Knowledge Retrieval": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "count": 1,
+    "create_time": 1774993492,
+    "update_time": 1774993492,
+    "_id": "Knowledge Retrieval"
+  },
+  "GraphRAG": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2",
+      "chunk-7ebd7175a1f26b79908061ab57b517a0",
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd",
+      "chunk-d384bfeec843c653b989ee99228eeab0",
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b",
+      "chunk-374ba872e4abd46815b626ad73ecb0b9",
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 7,
+    "update_time": 1774993823,
+    "_id": "GraphRAG"
+  },
+  "Leiden Community Detection Method": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "count": 1,
+    "create_time": 1774993492,
+    "update_time": 1774993492,
+    "_id": "Leiden Community Detection Method"
+  },
+  "Multi-Hop Reasoning": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "count": 1,
+    "create_time": 1774993492,
+    "update_time": 1774993492,
+    "_id": "Multi-Hop Reasoning"
+  },
+  "Entity Extraction": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "count": 1,
+    "create_time": 1774993492,
+    "update_time": 1774993492,
+    "_id": "Entity Extraction"
+  },
+  "Citations": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2"
+    ],
+    "count": 1,
+    "create_time": 1774993492,
+    "update_time": 1774993492,
+    "_id": "Citations"
+  },
+  "Structured Grounding": {
+    "chunk_ids": [
+      "chunk-5a0ea94d36e16aefbbdb1e52a48a4da2",
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 2,
+    "update_time": 1774993823,
+    "_id": "Structured Grounding"
+  },
+  "Knowledge Graphs": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Knowledge Graphs"
+  },
+  "Healthcare AI": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Healthcare AI"
+  },
+  "Clinical Decision Support": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Clinical Decision Support"
+  },
+  "EU AI Act": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a",
+      "chunk-13937f8efa1e649021b2562c5c4ce466",
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 3,
+    "update_time": 1774993763,
+    "_id": "EU AI Act"
+  },
+  "FDA Guidance": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "FDA Guidance"
+  },
+  "Diseases": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Diseases"
+  },
+  "Symptoms": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Symptoms"
+  },
+  "Medications": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Medications"
+  },
+  "Procedures": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Procedures"
+  },
+  "Clinical Trials": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Clinical Trials"
+  },
+  "Biomarkers": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Biomarkers"
+  },
+  "Patient Demographics": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Patient Demographics"
+  },
+  "UMLS": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "UMLS"
+  },
+  "National Library of Medicine": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "National Library of Medicine"
+  },
+  "SNOMED CT": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "SNOMED CT"
+  },
+  "ICD-10": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "ICD-10"
+  },
+  "RxNorm": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "RxNorm"
+  },
+  "Healthcare Knowledge Graphs": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Healthcare Knowledge Graphs"
+  },
+  "Mayo Clinic": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Mayo Clinic"
+  },
+  "Cleveland Clinic": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Cleveland Clinic"
+  },
+  "Memorial Sloan Kettering": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Memorial Sloan Kettering"
+  },
+  "Healthcare GraphRAG": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Healthcare GraphRAG"
+  },
+  "Retrieval-Augmented Generation": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a",
+      "chunk-7ebd7175a1f26b79908061ab57b517a0",
+      "chunk-884ce470afe0321907650814428fae37",
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 4,
+    "update_time": 1774993823,
+    "_id": "Retrieval-Augmented Generation"
+  },
+  "Electronic Health Records": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a",
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 2,
+    "update_time": 1774993567,
+    "_id": "Electronic Health Records"
+  },
+  "Clinical Trial Databases": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Clinical Trial Databases"
+  },
+  "Scientific Literature": {
+    "chunk_ids": [
+      "chunk-6f15d160ead15b98ce0ab2ffb63b362a"
+    ],
+    "count": 1,
+    "create_time": 1774993530,
+    "update_time": 1774993530,
+    "_id": "Scientific Literature"
+  },
+  "Vaccine Safety Monitoring": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Vaccine Safety Monitoring"
+  },
+  "Vaccine Adverse Event Reporting System": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Vaccine Adverse Event Reporting System"
+  },
+  "CDC": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "CDC"
+  },
+  "FDA": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "FDA"
+  },
+  "Graph-Based Analysis": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Graph-Based Analysis"
+  },
+  "Vaccine Research": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Vaccine Research"
+  },
+  "Pharmacovigilance": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Pharmacovigilance"
+  },
+  "Brighton Collaboration": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Brighton Collaboration"
+  },
+  "Global Vaccine Safety Initiative": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Global Vaccine Safety Initiative"
+  },
+  "Insurance Claims Databases": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Insurance Claims Databases"
+  },
+  "Vaccine Registries": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Vaccine Registries"
+  },
+  "Vaccine Safety Datalink": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Vaccine Safety Datalink"
+  },
+  "Graph Neural Networks": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996",
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 2,
+    "update_time": 1774993652,
+    "_id": "Graph Neural Networks"
+  },
+  "Temporal Knowledge Graphs": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996",
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 2,
+    "update_time": 1774993652,
+    "_id": "Temporal Knowledge Graphs"
+  },
+  "Vaccine Safety Signals": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Vaccine Safety Signals"
+  },
+  "Adverse Events Following Immunization": {
+    "chunk_ids": [
+      "chunk-f5641ec4e871244a183dca81ab477996"
+    ],
+    "count": 1,
+    "create_time": 1774993567,
+    "update_time": 1774993567,
+    "_id": "Adverse Events Following Immunization"
+  },
+  "Named Entity Recognition": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Named Entity Recognition"
+  },
+  "Relation Extraction": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Relation Extraction"
+  },
+  "Knowledge Graph": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389",
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd",
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 3,
+    "update_time": 1774993711,
+    "_id": "Knowledge Graph"
+  },
+  "GraphRAG Systems": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389",
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 2,
+    "update_time": 1774993711,
+    "_id": "GraphRAG Systems"
+  },
+  "Large Language Models": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Large Language Models"
+  },
+  "Domain-Specific Entities": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Domain-Specific Entities"
+  },
+  "Entity Resolution": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Entity Resolution"
+  },
+  "Community Detection Algorithms": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Community Detection Algorithms"
+  },
+  "Incremental Graph Updates": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Incremental Graph Updates"
+  },
+  "Technology": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Technology"
+  },
+  "Information Extraction": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Information Extraction"
+  },
+  "Traditional NER Models": {
+    "chunk_ids": [
+      "chunk-dcf301088ebc124f69bef8c917d94389"
+    ],
+    "count": 1,
+    "create_time": 1774993587,
+    "update_time": 1774993587,
+    "_id": "Traditional NER Models"
+  },
+  "Citation-Grounded AI": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Citation-Grounded AI"
+  },
+  "Hallucination Problem": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Hallucination Problem"
+  },
+  "Retrieval-Then-Cite Systems": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Retrieval-Then-Cite Systems"
+  },
+  "Graph-Grounded Systems": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Graph-Grounded Systems"
+  },
+  "Model-Level Citation Training": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Model-Level Citation Training"
+  },
+  "Perplexity AI": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Perplexity AI"
+  },
+  "Google": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Google"
+  },
+  "FDA Guidance on Clinical Decision Support": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "FDA Guidance on Clinical Decision Support"
+  },
+  "Citation Recall": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Citation Recall"
+  },
+  "Citation Precision": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Citation Precision"
+  },
+  "FActScore": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "FActScore"
+  },
+  "Infrastructure for Document Provenance Tracking": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993614,
+    "update_time": 1774993614,
+    "_id": "Infrastructure for Document Provenance Tracking"
+  },
+  "citation quality": {
+    "chunk_ids": [
+      "chunk-13937f8efa1e649021b2562c5c4ce466"
+    ],
+    "count": 1,
+    "create_time": 1774993615,
+    "update_time": 1774993615,
+    "_id": "citation quality"
+  },
+  "Graph Databases": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993651,
+    "update_time": 1774993651,
+    "_id": "Graph Databases"
+  },
+  "Neo4j": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993651,
+    "update_time": 1774993651,
+    "_id": "Neo4j"
+  },
+  "LightRAG": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993651,
+    "update_time": 1774993651,
+    "_id": "LightRAG"
+  },
+  "Microsoft GraphRAG": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993651,
+    "update_time": 1774993651,
+    "_id": "Microsoft GraphRAG"
+  },
+  "FalkorDB": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993651,
+    "update_time": 1774993651,
+    "_id": "FalkorDB"
+  },
+  "Pinecone": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993651,
+    "update_time": 1774993651,
+    "_id": "Pinecone"
+  },
+  "Weaviate": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993651,
+    "update_time": 1774993651,
+    "_id": "Weaviate"
+  },
+  "Qdrant": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "Qdrant"
+  },
+  "ChromaDB": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "ChromaDB"
+  },
+  "Amazon Neptune": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "Amazon Neptune"
+  },
+  "PostgreSQL": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "PostgreSQL"
+  },
+  "MongoDB": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "MongoDB"
+  },
+  "S3": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "S3"
+  },
+  "Hybrid Transactional-Analytical Processing (HTAP)": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "Hybrid Transactional-Analytical Processing (HTAP)"
+  },
+  "Federated Graph Architectures": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "Federated Graph Architectures"
+  },
+  "Cypher Query Language": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "Cypher Query Language"
+  },
+  "development": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "development"
+  },
+  "cloud deployment": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "cloud deployment"
+  },
+  "real-time applications": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993652,
+    "update_time": 1774993652,
+    "_id": "real-time applications"
+  },
+  "Database Technology": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993653,
+    "update_time": 1774993653,
+    "_id": "Database Technology"
+  },
+  "Scalability Challenges": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993653,
+    "update_time": 1774993653,
+    "_id": "Scalability Challenges"
+  },
+  "Emerging Trends": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993653,
+    "update_time": 1774993653,
+    "_id": "Emerging Trends"
+  },
+  "Vector Stores": {
+    "chunk_ids": [
+      "chunk-7ebd7175a1f26b79908061ab57b517a0"
+    ],
+    "count": 1,
+    "create_time": 1774993654,
+    "update_time": 1774993654,
+    "_id": "Vector Stores"
+  },
+  "LLM Hallucination": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "LLM Hallucination"
+  },
+  "Enterprise AI": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "Enterprise AI"
+  },
+  "AI Safety": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "AI Safety"
+  },
+  "Deloitte": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "Deloitte"
+  },
+  "Enterprise Deployment Patterns": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "Enterprise Deployment Patterns"
+  },
+  "Confidence Scoring": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "Confidence Scoring"
+  },
+  "Quantitative Benchmarks": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "Quantitative Benchmarks"
+  },
+  "2024 Survey": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "2024 Survey"
+  },
+  "Multi-Model Verification": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "Multi-Model Verification"
+  },
+  "Human-in-the-Loop Review Workflows": {
+    "chunk_ids": [
+      "chunk-05b5cd1a96253bf7b78dbf8d300adadd"
+    ],
+    "count": 1,
+    "create_time": 1774993681,
+    "update_time": 1774993681,
+    "_id": "Human-in-the-Loop Review Workflows"
+  },
+  "Hybrid Retrieval Architectures": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Hybrid Retrieval Architectures"
+  },
+  "Vector RAG": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37",
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 2,
+    "update_time": 1774993823,
+    "_id": "Vector RAG"
+  },
+  "Graph RAG": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Graph RAG"
+  },
+  "Hybrid RAG": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Hybrid RAG"
+  },
+  "Query Processing Pipeline": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Query Processing Pipeline"
+  },
+  "Embedding Models": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Embedding Models"
+  },
+  "Reciprocal Rank Fusion": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Reciprocal Rank Fusion"
+  },
+  "Cross-Encoder Re-Ranking": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Cross-Encoder Re-Ranking"
+  },
+  "Latency Budgets": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Latency Budgets"
+  },
+  "Adaptive Retrieval": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Adaptive Retrieval"
+  },
+  "Iterative Retrieval": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Iterative Retrieval"
+  },
+  "Multi-Index Retrieval": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Multi-Index Retrieval"
+  },
+  "Retrieval Sources": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Retrieval Sources"
+  },
+  "Heterogeneous Sources": {
+    "chunk_ids": [
+      "chunk-884ce470afe0321907650814428fae37"
+    ],
+    "count": 1,
+    "create_time": 1774993711,
+    "update_time": 1774993711,
+    "_id": "Heterogeneous Sources"
+  },
+  "Community Detection": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Community Detection"
+  },
+  "Hierarchical Summarization": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Hierarchical Summarization"
+  },
+  "Leiden Algorithm": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Leiden Algorithm"
+  },
+  "Louvain Algorithm": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Louvain Algorithm"
+  },
+  "Leiden University": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Leiden University"
+  },
+  "Modularity Function": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Modularity Function"
+  },
+  "LLM": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "LLM"
+  },
+  "Quality Metrics": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Quality Metrics"
+  },
+  "Document Corpus": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Document Corpus"
+  },
+  "Community Summaries": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Community Summaries"
+  },
+  "Map-Reduce Approach": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Map-Reduce Approach"
+  },
+  "Global Search Queries": {
+    "chunk_ids": [
+      "chunk-d384bfeec843c653b989ee99228eeab0"
+    ],
+    "count": 1,
+    "create_time": 1774993733,
+    "update_time": 1774993733,
+    "_id": "Global Search Queries"
+  },
+  "AI-Powered Decision Support Systems": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993763,
+    "update_time": 1774993763,
+    "_id": "AI-Powered Decision Support Systems"
+  },
+  "Article 13": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993763,
+    "update_time": 1774993763,
+    "_id": "Article 13"
+  },
+  "Article 14": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993763,
+    "update_time": 1774993763,
+    "_id": "Article 14"
+  },
+  "Article 17": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993763,
+    "update_time": 1774993763,
+    "_id": "Article 17"
+  },
+  "Article 11": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993763,
+    "update_time": 1774993763,
+    "_id": "Article 11"
+  },
+  "European Union": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993763,
+    "update_time": 1774993763,
+    "_id": "European Union"
+  },
+  "35 Million Euros": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993764,
+    "update_time": 1774993764,
+    "_id": "35 Million Euros"
+  },
+  "August 2024": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993764,
+    "update_time": 1774993764,
+    "_id": "August 2024"
+  },
+  "August 2026": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993764,
+    "update_time": 1774993764,
+    "_id": "August 2026"
+  },
+  "Retrieval-Augmented Generation Systems": {
+    "chunk_ids": [
+      "chunk-bf191c61f24f06aa1b4b87fbbe8f257b"
+    ],
+    "count": 1,
+    "create_time": 1774993764,
+    "update_time": 1774993764,
+    "_id": "Retrieval-Augmented Generation Systems"
+  },
+  "AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning"
+  },
+  "Clinical Trials Data": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "Clinical Trials Data"
+  },
+  "ClinicalTrials.gov": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "ClinicalTrials.gov"
+  },
+  "Knowledge Graph-Based AI Systems": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "Knowledge Graph-Based AI Systems"
+  },
+  "Drugs and Biologics": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "Drugs and Biologics"
+  },
+  "Diseases and Conditions": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "Diseases and Conditions"
+  },
+  "Patient Populations": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "Patient Populations"
+  },
+  "Clinical Endpoints": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993796,
+    "update_time": 1774993796,
+    "_id": "Clinical Endpoints"
+  },
+  "Adverse Events": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Adverse Events"
+  },
+  "Trial Designs": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Trial Designs"
+  },
+  "Regulatory Decisions": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Regulatory Decisions"
+  },
+  "Graph-Based Reasoning": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Graph-Based Reasoning"
+  },
+  "Pharmaceutical Companies": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Pharmaceutical Companies"
+  },
+  "Pistoia Alliance": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Pistoia Alliance"
+  },
+  "Clinical Data Interchange Standards Consortium (CDISC)": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Clinical Data Interchange Standards Consortium (CDISC)"
+  },
+  "Real-World Evidence": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Real-World Evidence"
+  },
+  "Clinical Trials Knowledge Graph": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Clinical Trials Knowledge Graph"
+  },
+  "Safety Signal Detection": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Safety Signal Detection"
+  },
+  "Automated Systematic Review Generation": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Automated Systematic Review Generation"
+  },
+  "Adaptive Trial Design Support": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Adaptive Trial Design Support"
+  },
+  "Drug Development": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Drug Development"
+  },
+  "Pharmaceutical Knowledge Graphs": {
+    "chunk_ids": [
+      "chunk-374ba872e4abd46815b626ad73ecb0b9"
+    ],
+    "count": 1,
+    "create_time": 1774993797,
+    "update_time": 1774993797,
+    "_id": "Pharmaceutical Knowledge Graphs"
+  },
+  "Grounding Techniques for Safe and Reliable AI Systems": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Grounding Techniques for Safe and Reliable AI Systems"
+  },
+  "AI Grounding": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "AI Grounding"
+  },
+  "Formal Verification": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Formal Verification"
+  },
+  "Knowledge Graph Grounding": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Knowledge Graph Grounding"
+  },
+  "Human-in-the-Loop Design": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Human-in-the-Loop Design"
+  },
+  "Cost-Reliability Tradeoff": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Cost-Reliability Tradeoff"
+  },
+  "Current Research Directions": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Current Research Directions"
+  },
+  "Self-Grounding Models": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Self-Grounding Models"
+  },
+  "Multi-Modal Grounding": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Multi-Modal Grounding"
+  },
+  "Collaborative Grounding": {
+    "chunk_ids": [
+      "chunk-f13ffed8f2c81a7ff9b29900ecd42a3e"
+    ],
+    "count": 1,
+    "create_time": 1774993823,
+    "update_time": 1774993823,
+    "_id": "Collaborative Grounding"
+  }
+}

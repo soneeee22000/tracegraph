@@ -3,7 +3,7 @@ node_modules/
 __pycache__/
 *.pyc
 .env
-graph_store/
+# graph_store/ is committed for deployment (baked into Docker image)
 .DS_Store
 dist/
 build/

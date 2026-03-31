@@ -1,0 +1,594 @@
+{
+  "doc-5a0ea94d36e16aefbbdb1e52a48a4da2": {
+    "relation_pairs": [
+      [
+        "Entity Extraction",
+        "GraphRAG"
+      ],
+      [
+        "GraphRAG",
+        "Structured Grounding"
+      ],
+      [
+        "GraphRAG",
+        "Leiden Community Detection Method"
+      ],
+      [
+        "Citations",
+        "GraphRAG"
+      ],
+      [
+        "Graph-Based Retrieval Augmented Generation",
+        "GraphRAG"
+      ],
+      [
+        "GraphRAG",
+        "Multi-Hop Reasoning"
+      ],
+      [
+        "GraphRAG",
+        "Knowledge Retrieval"
+      ],
+      [
+        "AI Infrastructure",
+        "GraphRAG"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1774993494,
+    "update_time": 1774993494,
+    "_id": "doc-5a0ea94d36e16aefbbdb1e52a48a4da2"
+  },
+  "doc-6f15d160ead15b98ce0ab2ffb63b362a": {
+    "relation_pairs": [
+      [
+        "Healthcare Knowledge Graphs",
+        "Memorial Sloan Kettering"
+      ],
+      [
+        "Healthcare Knowledge Graphs",
+        "Scientific Literature"
+      ],
+      [
+        "Healthcare Knowledge Graphs",
+        "UMLS"
+      ],
+      [
+        "Healthcare Knowledge Graphs",
+        "Mayo Clinic"
+      ],
+      [
+        "Clinical Trial Databases",
+        "Healthcare Knowledge Graphs"
+      ],
+      [
+        "Clinical Decision Support",
+        "FDA Guidance"
+      ],
+      [
+        "Healthcare AI",
+        "Knowledge Graphs"
+      ],
+      [
+        "Clinical Decision Support",
+        "EU AI Act"
+      ],
+      [
+        "Knowledge Graphs",
+        "Retrieval-Augmented Generation"
+      ],
+      [
+        "Electronic Health Records",
+        "Healthcare Knowledge Graphs"
+      ],
+      [
+        "Clinical Decision Support",
+        "Knowledge Graphs"
+      ],
+      [
+        "Cleveland Clinic",
+        "Healthcare Knowledge Graphs"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1774993532,
+    "update_time": 1774993532,
+    "_id": "doc-6f15d160ead15b98ce0ab2ffb63b362a"
+  },
+  "doc-f5641ec4e871244a183dca81ab477996": {
+    "relation_pairs": [
+      [
+        "Vaccine Safety Monitoring",
+        "Vaccine Safety Signals"
+      ],
+      [
+        "Vaccine Adverse Event Reporting System",
+        "Vaccine Safety Monitoring"
+      ],
+      [
+        "Vaccine Safety Datalink",
+        "Vaccine Safety Monitoring"
+      ],
+      [
+        "Graph-Based Analysis",
+        "Vaccine Research"
+      ],
+      [
+        "Global Vaccine Safety Initiative",
+        "Vaccine Safety Monitoring"
+      ],
+      [
+        "Graph Neural Networks",
+        "Vaccine Safety Monitoring"
+      ],
+      [
+        "FDA",
+        "Vaccine Adverse Event Reporting System"
+      ],
+      [
+        "Electronic Health Records",
+        "Vaccine Safety Monitoring"
+      ],
+      [
+        "Brighton Collaboration",
+        "Vaccine Safety Monitoring"
+      ],
+      [
+        "Adverse Events Following Immunization",
+        "Brighton Collaboration"
+      ],
+      [
+        "CDC",
+        "Vaccine Adverse Event Reporting System"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1774993569,
+    "update_time": 1774993569,
+    "_id": "doc-f5641ec4e871244a183dca81ab477996"
+  },
+  "doc-dcf301088ebc124f69bef8c917d94389": {
+    "relation_pairs": [
+      [
+        "Information Extraction",
+        "Knowledge Graph"
+      ],
+      [
+        "Large Language Models",
+        "Traditional NER Models"
+      ],
+      [
+        "Knowledge Graph",
+        "Relation Extraction"
+      ],
+      [
+        "GraphRAG Systems",
+        "Knowledge Graph"
+      ],
+      [
+        "Named Entity Recognition",
+        "Relation Extraction"
+      ],
+      [
+        "Entity Resolution",
+        "Large Language Models"
+      ],
+      [
+        "Community Detection Algorithms",
+        "Knowledge Graph"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1774993588,
+    "update_time": 1774993588,
+    "_id": "doc-dcf301088ebc124f69bef8c917d94389"
+  },
+  "doc-13937f8efa1e649021b2562c5c4ce466": {
+    "relation_pairs": [
+      [
+        "FActScore",
+        "citation quality"
+      ],
+      [
+        "Citation-Grounded AI",
+        "Hallucination Problem"
+      ],
+      [
+        "Citation-Grounded AI",
+        "Model-Level Citation Training"
+      ],
+      [
+        "Model-Level Citation Training",
+        "Perplexity AI"
+      ],
+      [
+        "Citation-Grounded AI",
+        "Graph-Grounded Systems"
+      ],
+      [
+        "Citation Precision",
+        "citation quality"
+      ],
+      [
+        "Citation-Grounded AI",
+        "FDA Guidance on Clinical Decision Support"
+      ],
+      [
+        "Citation-Grounded AI",
+        "Retrieval-Then-Cite Systems"
+      ],
+      [
+        "Google",
+        "Model-Level Citation Training"
+      ],
+      [
+        "Citation-Grounded AI",
+        "EU AI Act"
+      ],
+      [
+        "Citation-Grounded AI",
+        "Infrastructure for Document Provenance Tracking"
+      ],
+      [
+        "Citation Recall",
+        "citation quality"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1774993616,
+    "update_time": 1774993616,
+    "_id": "doc-13937f8efa1e649021b2562c5c4ce466"
+  },
+  "doc-7ebd7175a1f26b79908061ab57b517a0": {
+    "relation_pairs": [
+      [
+        "Database Technology",
+        "Emerging Trends"
+      ],
+      [
+        "GraphRAG",
+        "Pinecone"
+      ],
+      [
+        "FalkorDB",
+        "real-time applications"
+      ],
+      [
+        "LightRAG",
+        "development"
+      ],
+      [
+        "GraphRAG",
+        "PostgreSQL"
+      ],
+      [
+        "GraphRAG",
+        "Neo4j"
+      ],
+      [
+        "Amazon Neptune",
+        "GraphRAG"
+      ],
+      [
+        "Cypher Query Language",
+        "Neo4j"
+      ],
+      [
+        "Microsoft GraphRAG",
+        "cloud deployment"
+      ],
+      [
+        "Graph Databases",
+        "Graph Neural Networks"
+      ],
+      [
+        "GraphRAG",
+        "Vector Stores"
+      ],
+      [
+        "Graph Databases",
+        "Scalability Challenges"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1774993654,
+    "update_time": 1774993654,
+    "_id": "doc-7ebd7175a1f26b79908061ab57b517a0"
+  },
+  "doc-05b5cd1a96253bf7b78dbf8d300adadd": {
+    "relation_pairs": [
+      [
+        "Enterprise Deployment Patterns",
+        "Multi-Model Verification"
+      ],
+      [
+        "Deloitte",
+        "LLM Hallucination"
+      ],
+      [
+        "Enterprise Deployment Patterns",
+        "GraphRAG"
+      ],
+      [
+        "GraphRAG",
+        "LLM Hallucination"
+      ],
+      [
+        "GraphRAG",
+        "Knowledge Graph"
+      ],
+      [
+        "Enterprise Deployment Patterns",
+        "Human-in-the-Loop Review Workflows"
+      ],
+      [
+        "Enterprise AI",
+        "LLM Hallucination"
+      ]
+    ],
+    "count": 7,
+    "create_time": 1774993683,
+    "update_time": 1774993683,
+    "_id": "doc-05b5cd1a96253bf7b78dbf8d300adadd"
+  },
+  "doc-884ce470afe0321907650814428fae37": {
+    "relation_pairs": [
+      [
+        "Hybrid Retrieval Architectures",
+        "Query Processing Pipeline"
+      ],
+      [
+        "Graph RAG",
+        "Hybrid Retrieval Architectures"
+      ],
+      [
+        "Cross-Encoder Re-Ranking",
+        "Hybrid Retrieval Architectures"
+      ],
+      [
+        "Hybrid Retrieval Architectures",
+        "Retrieval Sources"
+      ],
+      [
+        "Heterogeneous Sources",
+        "Hybrid Retrieval Architectures"
+      ],
+      [
+        "Hybrid Retrieval Architectures",
+        "Retrieval-Augmented Generation"
+      ],
+      [
+        "Hybrid Retrieval Architectures",
+        "Iterative Retrieval"
+      ],
+      [
+        "Hybrid Retrieval Architectures",
+        "Reciprocal Rank Fusion"
+      ],
+      [
+        "Hybrid Retrieval Architectures",
+        "Vector RAG"
+      ],
+      [
+        "GraphRAG Systems",
+        "Hybrid Retrieval Architectures"
+      ],
+      [
+        "Adaptive Retrieval",
+        "Hybrid Retrieval Architectures"
+      ],
+      [
+        "Hybrid Retrieval Architectures",
+        "Multi-Index Retrieval"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1774993714,
+    "update_time": 1774993714,
+    "_id": "doc-884ce470afe0321907650814428fae37"
+  },
+  "doc-d384bfeec843c653b989ee99228eeab0": {
+    "relation_pairs": [
+      [
+        "Community Detection",
+        "Hierarchical Summarization"
+      ],
+      [
+        "Community Summaries",
+        "Map-Reduce Approach"
+      ],
+      [
+        "Community Detection",
+        "GraphRAG"
+      ],
+      [
+        "Leiden Algorithm",
+        "Louvain Algorithm"
+      ],
+      [
+        "GraphRAG",
+        "Leiden Algorithm"
+      ],
+      [
+        "Community Summaries",
+        "Global Search Queries"
+      ],
+      [
+        "Community Summaries",
+        "LLM"
+      ],
+      [
+        "Community Detection",
+        "Document Corpus"
+      ]
+    ],
+    "count": 8,
+    "create_time": 1774993734,
+    "update_time": 1774993734,
+    "_id": "doc-d384bfeec843c653b989ee99228eeab0"
+  },
+  "doc-bf191c61f24f06aa1b4b87fbbe8f257b": {
+    "relation_pairs": [
+      [
+        "Article 14",
+        "Retrieval-Augmented Generation Systems"
+      ],
+      [
+        "AI-Powered Decision Support Systems",
+        "EU AI Act"
+      ],
+      [
+        "Article 14",
+        "GraphRAG"
+      ],
+      [
+        "EU AI Act",
+        "GraphRAG"
+      ],
+      [
+        "Article 11",
+        "Retrieval-Augmented Generation Systems"
+      ],
+      [
+        "Article 17",
+        "Retrieval-Augmented Generation Systems"
+      ],
+      [
+        "Article 13",
+        "GraphRAG"
+      ],
+      [
+        "AI-Powered Decision Support Systems",
+        "Article 13"
+      ],
+      [
+        "AI-Powered Decision Support Systems",
+        "Article 17"
+      ],
+      [
+        "Article 13",
+        "Retrieval-Augmented Generation Systems"
+      ],
+      [
+        "EU AI Act",
+        "European Union"
+      ],
+      [
+        "Article 17",
+        "GraphRAG"
+      ],
+      [
+        "AI-Powered Decision Support Systems",
+        "Article 11"
+      ],
+      [
+        "AI-Powered Decision Support Systems",
+        "Article 14"
+      ]
+    ],
+    "count": 14,
+    "create_time": 1774993765,
+    "update_time": 1774993765,
+    "_id": "doc-bf191c61f24f06aa1b4b87fbbe8f257b"
+  },
+  "doc-374ba872e4abd46815b626ad73ecb0b9": {
+    "relation_pairs": [
+      [
+        "Knowledge Graph-Based AI Systems",
+        "Pharmaceutical Companies"
+      ],
+      [
+        "Pharmaceutical Knowledge Graphs",
+        "Pistoia Alliance"
+      ],
+      [
+        "Adaptive Trial Design Support",
+        "Knowledge Graph-Based AI Systems"
+      ],
+      [
+        "Clinical Data Interchange Standards Consortium (CDISC)",
+        "Clinical Trials Knowledge Graph"
+      ],
+      [
+        "Clinical Trials Knowledge Graph",
+        "Graph-Based Reasoning"
+      ],
+      [
+        "Automated Systematic Review Generation",
+        "Knowledge Graph-Based AI Systems"
+      ],
+      [
+        "Knowledge Graph-Based AI Systems",
+        "Safety Signal Detection"
+      ],
+      [
+        "Drug Development",
+        "Knowledge Graph-Based AI Systems"
+      ],
+      [
+        "AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning",
+        "Clinical Trials Data"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1774993798,
+    "update_time": 1774993798,
+    "_id": "doc-374ba872e4abd46815b626ad73ecb0b9"
+  },
+  "doc-f13ffed8f2c81a7ff9b29900ecd42a3e": {
+    "relation_pairs": [
+      [
+        "Collaborative Grounding",
+        "Current Research Directions"
+      ],
+      [
+        "Current Research Directions",
+        "Self-Grounding Models"
+      ],
+      [
+        "AI Grounding",
+        "Formal Verification"
+      ],
+      [
+        "AI Grounding",
+        "Structured Grounding"
+      ],
+      [
+        "Grounding Techniques for Safe and Reliable AI Systems",
+        "Vector RAG"
+      ],
+      [
+        "Current Research Directions",
+        "Multi-Modal Grounding"
+      ],
+      [
+        "AI Grounding",
+        "Retrieval-Augmented Generation"
+      ],
+      [
+        "GraphRAG",
+        "Knowledge Graph Grounding"
+      ],
+      [
+        "Grounding Techniques for Safe and Reliable AI Systems",
+        "Human-in-the-Loop Design"
+      ],
+      [
+        "AI Grounding",
+        "Current Research Directions"
+      ],
+      [
+        "Cost-Reliability Tradeoff",
+        "Grounding Techniques for Safe and Reliable AI Systems"
+      ],
+      [
+        "AI Grounding",
+        "Grounding Techniques for Safe and Reliable AI Systems"
+      ]
+    ],
+    "count": 12,
+    "create_time": 1774993825,
+    "update_time": 1774993825,
+    "_id": "doc-f13ffed8f2c81a7ff9b29900ecd42a3e"
+  }
+}

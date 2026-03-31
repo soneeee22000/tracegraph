@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: tracegraph-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    envVars:
+      - key: LLM_MODEL
+        value: gpt-4o-mini
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_API_BASE
+        value: https://api.openai.com/v1
+      - key: EMBEDDING_MODEL
+        value: text-embedding-3-small
+      - key: EMBEDDING_API_KEY
+        sync: false
+      - key: EMBEDDING_API_BASE
+        value: https://api.openai.com/v1
+      - key: WORKING_DIR
+        value: ./graph_store
+      - key: CORPUS_DIR
+        value: ./corpus
+      - key: CORS_ORIGINS
+        sync: false

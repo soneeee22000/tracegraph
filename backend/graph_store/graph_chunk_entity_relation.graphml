@@ -1,0 +1,2725 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Graph-Based Retrieval Augmented Generation">
+  <data key="d0">Graph-Based Retrieval Augmented Generation</data>
+  <data key="d1">concept</data>
+  <data key="d2">Graph-Based Retrieval Augmented Generation is a method that combines semantic vector search with structured knowledge graph traversal for knowledge-intensive tasks.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993492</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Infrastructure">
+  <data key="d0">AI Infrastructure</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI Infrastructure refers to the underlying technology and systems that support artificial intelligence applications and services.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993492</data>
+  <data key="d6"></data>
+</node>
+<node id="Knowledge Retrieval">
+  <data key="d0">Knowledge Retrieval</data>
+  <data key="d1">concept</data>
+  <data key="d2">Knowledge Retrieval encompasses methods and techniques used to obtain relevant information from various sources and documents.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993492</data>
+  <data key="d6"></data>
+</node>
+<node id="GraphRAG">
+  <data key="d0">GraphRAG</data>
+  <data key="d1">organization</data>
+  <data key="d2">GraphRAG is a method that represents a shift in retrieval-augmented generation, enhancing traditional systems by incorporating knowledge graphs.&lt;SEP&gt;GraphRAG refers to architectures that combine graph-based retrieval and generation methods in AI applications.&lt;SEP&gt;GraphRAG is a method for addressing LLM hallucination by grounding generation in structured knowledge graphs to enhance accuracy.&lt;SEP&gt;GraphRAG is a system that utilizes community detection to enhance its global search capability within knowledge graphs.&lt;SEP&gt;GraphRAG is a retrieval-augmented generation system known for its traceability through knowledge graph citation chains and is impacted by the EU AI Act's requirements.&lt;SEP&gt;GraphRAG is an entity that excels at multi-hop reasoning across multiple data dimensions in the context of clinical trials.&lt;SEP&gt;GraphRAG systems utilize knowledge graph grounding to create structured domain knowledge representations that support verification.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2&lt;SEP&gt;chunk-7ebd7175a1f26b79908061ab57b517a0&lt;SEP&gt;chunk-05b5cd1a96253bf7b78dbf8d300adadd&lt;SEP&gt;chunk-d384bfeec843c653b989ee99228eeab0&lt;SEP&gt;chunk-bf191c61f24f06aa1b4b87fbbe8f257b&lt;SEP&gt;chunk-374ba872e4abd46815b626ad73ecb0b9&lt;SEP&gt;chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Leiden Community Detection Method">
+  <data key="d0">Leiden Community Detection Method</data>
+  <data key="d1">method</data>
+  <data key="d2">The Leiden Community Detection Method is an algorithm used to identify and organize entities into hierarchical communities within a graph.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993492</data>
+  <data key="d6"></data>
+</node>
+<node id="Multi-Hop Reasoning">
+  <data key="d0">Multi-Hop Reasoning</data>
+  <data key="d1">concept</data>
+  <data key="d2">Multi-Hop Reasoning refers to the capability of following chains of relationships between entities for complex queries in knowledge graph systems.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993492</data>
+  <data key="d6"></data>
+</node>
+<node id="Entity Extraction">
+  <data key="d0">Entity Extraction</data>
+  <data key="d1">concept</data>
+  <data key="d2">Entity Extraction is the process of identifying and extracting entities such as people, organizations, and concepts from documents for knowledge graph creation.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993492</data>
+  <data key="d6"></data>
+</node>
+<node id="Citations">
+  <data key="d0">Citations</data>
+  <data key="d1">concept</data>
+  <data key="d2">Citations refer to the references or sources that provide evidence and support for the information presented in AI outputs and knowledge retrieval.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993492</data>
+  <data key="d6"></data>
+</node>
+<node id="Structured Grounding">
+  <data key="d0">Structured Grounding</data>
+  <data key="d1">method</data>
+  <data key="d2">Structured Grounding is a method that helps reduce hallucination in AI outputs by providing a clear foundation based on credible sources and relationships.&lt;SEP&gt;Structured grounding employs knowledge graphs to ensure that model outputs align with verified entities and relationships.</data>
+  <data key="d3">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2&lt;SEP&gt;chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Knowledge Graphs">
+  <data key="d0">Knowledge Graphs</data>
+  <data key="d1">concept</data>
+  <data key="d2">Knowledge Graphs are a foundational technology used in healthcare AI systems for explainable, traceable reasoning in clinical decision support.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Healthcare AI">
+  <data key="d0">Healthcare AI</data>
+  <data key="d1">concept</data>
+  <data key="d2">Healthcare AI refers to the application of artificial intelligence technologies within healthcare systems to enhance decision-making processes.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Clinical Decision Support">
+  <data key="d0">Clinical Decision Support</data>
+  <data key="d1">method</data>
+  <data key="d2">Clinical Decision Support is a system that aids healthcare professionals in making clinical decisions based on evidence and guidelines.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="EU AI Act">
+  <data key="d0">EU AI Act</data>
+  <data key="d1">concept</data>
+  <data key="d2">The EU AI Act outlines regulatory requirements for artificial intelligence systems, including those used in healthcare.&lt;SEP&gt;The EU AI Act mandates that high-risk AI systems provide adequate traceability and documentation for compliance.&lt;SEP&gt;The EU AI Act establishes the world's first comprehensive regulatory framework for artificial intelligence, entering into force in August 2024.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a&lt;SEP&gt;chunk-13937f8efa1e649021b2562c5c4ce466&lt;SEP&gt;chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993763</data>
+  <data key="d6"></data>
+</node>
+<node id="FDA Guidance">
+  <data key="d0">FDA Guidance</data>
+  <data key="d1">regulation</data>
+  <data key="d2">FDA Guidance provides regulatory advice for clinical decision support software used in healthcare settings.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Diseases">
+  <data key="d0">Diseases</data>
+  <data key="d1">concept</data>
+  <data key="d2">Diseases are medical conditions that can be modeled as entities within healthcare knowledge graphs for treatment and research.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Symptoms">
+  <data key="d0">Symptoms</data>
+  <data key="d1">concept</data>
+  <data key="d2">Symptoms are clinical presentations associated with diseases and are included in healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Medications">
+  <data key="d0">Medications</data>
+  <data key="d1">concept</data>
+  <data key="d2">Medications are drugs used to treat diseases and can be captured as entities in healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Procedures">
+  <data key="d0">Procedures</data>
+  <data key="d1">concept</data>
+  <data key="d2">Procedures refer to medical interventions and are modeled within healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Clinical Trials">
+  <data key="d0">Clinical Trials</data>
+  <data key="d1">concept</data>
+  <data key="d2">Clinical Trials are research studies that evaluate medical interventions and are represented in healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Biomarkers">
+  <data key="d0">Biomarkers</data>
+  <data key="d1">concept</data>
+  <data key="d2">Biomarkers are biological indicators of disease and are included in healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Patient Demographics">
+  <data key="d0">Patient Demographics</data>
+  <data key="d1">concept</data>
+  <data key="d2">Patient Demographics consist of characteristics such as age and gender, important for modeling in healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="UMLS">
+  <data key="d0">UMLS</data>
+  <data key="d1">organization</data>
+  <data key="d2">UMLS (Unified Medical Language System) is maintained by the National Library of Medicine and provides a foundational ontology with millions of concepts and relationships.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="National Library of Medicine">
+  <data key="d0">National Library of Medicine</data>
+  <data key="d1">organization</data>
+  <data key="d2">The National Library of Medicine maintains the UMLS, providing essential medical terminology and classifications.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="SNOMED CT">
+  <data key="d0">SNOMED CT</data>
+  <data key="d1">content</data>
+  <data key="d2">SNOMED CT is a standardized vocabulary used in healthcare to enhance clinical decision support and documentation.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="ICD-10">
+  <data key="d0">ICD-10</data>
+  <data key="d1">content</data>
+  <data key="d2">ICD-10 is a standardized classification system for diseases and health-related conditions used in clinical settings.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="RxNorm">
+  <data key="d0">RxNorm</data>
+  <data key="d1">content</data>
+  <data key="d2">RxNorm provides standardized naming for medications to support clinical decision-making.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Healthcare Knowledge Graphs">
+  <data key="d0">Healthcare Knowledge Graphs</data>
+  <data key="d1">concept</data>
+  <data key="d2">Healthcare Knowledge Graphs integrate various standards and real-world evidence to support clinical decision-making and drug discovery.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Mayo Clinic">
+  <data key="d0">Mayo Clinic</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Mayo Clinic is a healthcare organization that has invested significantly in knowledge graph infrastructure for clinical decision support.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Cleveland Clinic">
+  <data key="d0">Cleveland Clinic</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Cleveland Clinic is a healthcare provider that utilizes knowledge graph technology for informed decision-making.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Memorial Sloan Kettering">
+  <data key="d0">Memorial Sloan Kettering</data>
+  <data key="d1">organization</data>
+  <data key="d2">Memorial Sloan Kettering is a cancer treatment and research institution that employs knowledge graphs to support clinical practices.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Healthcare GraphRAG">
+  <data key="d0">Healthcare GraphRAG</data>
+  <data key="d1">concept</data>
+  <data key="d2">Healthcare GraphRAG refers to key challenges in developing and maintaining accurate and effective healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Retrieval-Augmented Generation">
+  <data key="d0">Retrieval-Augmented Generation</data>
+  <data key="d1">method</data>
+  <data key="d2">Retrieval-Augmented Generation is a method that enhances AI systems by allowing them to answer complex queries based on traversing knowledge graphs rather than simple pattern matching.&lt;SEP&gt;Retrieval-Augmented Generation is a method that enhances the capabilities of standard AI applications by integrating retrieval and generation processes.&lt;SEP&gt;Retrieval-Augmented Generation (RAG) refers to the method where retrieval techniques enhance the generation process, particularly in AI systems.&lt;SEP&gt;Retrieval-augmented generation is a basic grounding approach that enhances model prompts with relevant documents for contextual grounding.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a&lt;SEP&gt;chunk-7ebd7175a1f26b79908061ab57b517a0&lt;SEP&gt;chunk-884ce470afe0321907650814428fae37&lt;SEP&gt;chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Electronic Health Records">
+  <data key="d0">Electronic Health Records</data>
+  <data key="d1">data</data>
+  <data key="d2">Electronic Health Records are digital versions of patients' paper charts and provide real-world evidence for healthcare knowledge graphs.&lt;SEP&gt;Electronic health records contain patient health information and provide complementary data for vaccine safety monitoring.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a&lt;SEP&gt;chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Clinical Trial Databases">
+  <data key="d0">Clinical Trial Databases</data>
+  <data key="d1">data</data>
+  <data key="d2">Clinical Trial Databases store information about clinical trials and contribute to the real-world evidence used in knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Scientific Literature">
+  <data key="d0">Scientific Literature</data>
+  <data key="d1">content</data>
+  <data key="d2">Scientific Literature refers to published studies and articles that provide foundational evidence for healthcare knowledge graphs.</data>
+  <data key="d3">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993530</data>
+  <data key="d6"></data>
+</node>
+<node id="Vaccine Safety Monitoring">
+  <data key="d0">Vaccine Safety Monitoring</data>
+  <data key="d1">concept</data>
+  <data key="d2">Vaccine safety monitoring is a critical application of knowledge graph technology in public health, aimed at tracking adverse events following vaccinations.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Vaccine Adverse Event Reporting System">
+  <data key="d0">Vaccine Adverse Event Reporting System</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Vaccine Adverse Event Reporting System (VAERS) is maintained by the CDC and FDA and collects reports of adverse events following vaccinations.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="CDC">
+  <data key="d0">CDC</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Centers for Disease Control and Prevention (CDC) is a national public health institute that helps manage the VAERS.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="FDA">
+  <data key="d0">FDA</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Food and Drug Administration (FDA) is a U.S. government agency responsible for regulating food, drugs, and vaccines, including oversight of VAERS.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Graph-Based Analysis">
+  <data key="d0">Graph-Based Analysis</data>
+  <data key="d1">method</data>
+  <data key="d2">Graph-based analysis involves using knowledge graphs to model relationships in vaccine pharmacovigilance, enabling enhanced reasoning about vaccine safety.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Vaccine Research">
+  <data key="d0">Vaccine Research</data>
+  <data key="d1">concept</data>
+  <data key="d2">Vaccine research is the domain focused on studying vaccines, their effects, and safety monitoring systems.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Pharmacovigilance">
+  <data key="d0">Pharmacovigilance</data>
+  <data key="d1">concept</data>
+  <data key="d2">Pharmacovigilance is the science of monitoring drug safety, including vaccines, and assessing adverse effects.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Brighton Collaboration">
+  <data key="d0">Brighton Collaboration</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Brighton Collaboration has developed standardized case definitions for adverse events following immunization to improve precision in knowledge graph entity extraction.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Global Vaccine Safety Initiative">
+  <data key="d0">Global Vaccine Safety Initiative</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Global Vaccine Safety Initiative (GVSI) by WHO promotes international collaboration in detecting and assessing vaccine safety signals.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Insurance Claims Databases">
+  <data key="d0">Insurance Claims Databases</data>
+  <data key="d1">data</data>
+  <data key="d2">Insurance claims databases collect health-related claims data, which aids in enhancing knowledge graphs for vaccine safety monitoring.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Vaccine Registries">
+  <data key="d0">Vaccine Registries</data>
+  <data key="d1">data</data>
+  <data key="d2">Vaccine registries track vaccination status and contribute data for improved vaccine safety analysis.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Vaccine Safety Datalink">
+  <data key="d0">Vaccine Safety Datalink</data>
+  <data key="d1">data</data>
+  <data key="d2">The Vaccine Safety Datalink (VSD) is a program that links health data and vaccine information from millions of individuals for safety signal assessment.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Graph Neural Networks">
+  <data key="d0">Graph Neural Networks</data>
+  <data key="d1">concept</data>
+  <data key="d2">Graph neural networks are used for automated signal detection in vaccine pharmacovigilance.&lt;SEP&gt;Graph Neural Networks are neural network architectures designed specifically to work with graph data structures for learning representations.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996&lt;SEP&gt;chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="Temporal Knowledge Graphs">
+  <data key="d0">Temporal Knowledge Graphs</data>
+  <data key="d1">concept</data>
+  <data key="d2">Temporal knowledge graphs capture the evolution of safety evidence over time, facilitating ongoing analysis of vaccine safety.&lt;SEP&gt;Temporal Knowledge Graphs maintain historical states of entities and relationships over time for dynamic querying.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996&lt;SEP&gt;chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="Vaccine Safety Signals">
+  <data key="d0">Vaccine Safety Signals</data>
+  <data key="d1">concept</data>
+  <data key="d2">Vaccine safety signals refer to alerts or indications of potential safety concerns related to vaccines, arising from data analysis.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Adverse Events Following Immunization">
+  <data key="d0">Adverse Events Following Immunization</data>
+  <data key="d1">concept</data>
+  <data key="d2">Adverse events following immunization (AEFI) are negative health events that occur after vaccination, monitored for safety assessment.</data>
+  <data key="d3">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993567</data>
+  <data key="d6"></data>
+</node>
+<node id="Named Entity Recognition">
+  <data key="d0">Named Entity Recognition</data>
+  <data key="d1">concept</data>
+  <data key="d2">Named Entity Recognition is a process in NLP that involves identifying and classifying entities in text into predefined categories.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Relation Extraction">
+  <data key="d0">Relation Extraction</data>
+  <data key="d1">concept</data>
+  <data key="d2">Relation Extraction is the process of identifying relationships between entities in text, which follows entity recognition.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Knowledge Graph">
+  <data key="d0">Knowledge Graph</data>
+  <data key="d1">data</data>
+  <data key="d2">A Knowledge Graph is a structured representation of entities and their relationships, used for information retrieval and reasoning.&lt;SEP&gt;A Knowledge Graph is a structured representation of knowledge that helps constrain AI model outputs to verified entities and relationships.&lt;SEP&gt;The Knowledge Graph is a structured representation of entities and their relationships, used in Graph RAG for extracting relevant information.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389&lt;SEP&gt;chunk-05b5cd1a96253bf7b78dbf8d300adadd&lt;SEP&gt;chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="GraphRAG Systems">
+  <data key="d0">GraphRAG Systems</data>
+  <data key="d1">concept</data>
+  <data key="d2">GraphRAG Systems are systems that use entity and relationship extraction pipelines to build knowledge graphs from raw text.&lt;SEP&gt;GraphRAG Systems are hybrid retrieval systems that utilize reasoning depth, coverage, and traceability in their evaluation metrics.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389&lt;SEP&gt;chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Large Language Models">
+  <data key="d0">Large Language Models</data>
+  <data key="d1">technology</data>
+  <data key="d2">Large Language Models are advanced AI systems used for performing tasks such as entity extraction from text.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Domain-Specific Entities">
+  <data key="d0">Domain-Specific Entities</data>
+  <data key="d1">concept</data>
+  <data key="d2">Domain-Specific Entities are specialized terms or entities that belong to a specific field, such as medicine or law.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Entity Resolution">
+  <data key="d0">Entity Resolution</data>
+  <data key="d1">concept</data>
+  <data key="d2">Entity Resolution is a technique used to identify when different names or phrases refer to the same entity within a dataset.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Community Detection Algorithms">
+  <data key="d0">Community Detection Algorithms</data>
+  <data key="d1">concept</data>
+  <data key="d2">Community Detection Algorithms are methods used to identify and group related entities into semantic clusters within a knowledge graph.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Incremental Graph Updates">
+  <data key="d0">Incremental Graph Updates</data>
+  <data key="d1">concept</data>
+  <data key="d2">Incremental Graph Updates allow for the modification of a knowledge graph by adding new data without requiring a complete rebuild.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Technology">
+  <data key="d0">Technology</data>
+  <data key="d1">concept</data>
+  <data key="d2">Technology refers to the application of scientific knowledge for practical purposes, highly relevant in the context of entity extraction.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Information Extraction">
+  <data key="d0">Information Extraction</data>
+  <data key="d1">concept</data>
+  <data key="d2">Information Extraction is the process of transforming unstructured data into structured representations, such as extracting entities and relations from text.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Traditional NER Models">
+  <data key="d0">Traditional NER Models</data>
+  <data key="d1">concept</data>
+  <data key="d2">Traditional NER Models are conventional techniques used for Named Entity Recognition that may require fine-tuning for specific domains.</data>
+  <data key="d3">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993587</data>
+  <data key="d6"></data>
+</node>
+<node id="Citation-Grounded AI">
+  <data key="d0">Citation-Grounded AI</data>
+  <data key="d1">concept</data>
+  <data key="d2">Citation-Grounded AI is a concept that aims to address the hallucination problem in AI-generated responses by ensuring claims are traceable to specific sources.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Hallucination Problem">
+  <data key="d0">Hallucination Problem</data>
+  <data key="d1">concept</data>
+  <data key="d2">The hallucination problem refers to the tendency of large language models to generate plausible-sounding but factually incorrect statements with equal confidence to accurate ones.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Retrieval-Then-Cite Systems">
+  <data key="d0">Retrieval-Then-Cite Systems</data>
+  <data key="d1">method</data>
+  <data key="d2">Retrieval-Then-Cite Systems are a type of citation grounding that retrieves relevant passages and generates responses that reference specific chunks.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Graph-Grounded Systems">
+  <data key="d0">Graph-Grounded Systems</data>
+  <data key="d1">method</data>
+  <data key="d2">Graph-Grounded Systems trace reasoning paths through knowledge graphs, providing evidence chains for citation.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Model-Level Citation Training">
+  <data key="d0">Model-Level Citation Training</data>
+  <data key="d1">method</data>
+  <data key="d2">Model-Level Citation Training teaches large language models to generate inline citations as part of their responses.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Perplexity AI">
+  <data key="d0">Perplexity AI</data>
+  <data key="d1">organization</data>
+  <data key="d2">Perplexity AI is an organization that has demonstrated model-level citation training for AI-generated outputs.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Google">
+  <data key="d0">Google</data>
+  <data key="d1">organization</data>
+  <data key="d2">Google is an organization that conducts research on citation systems within AI-generated outputs.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="FDA Guidance on Clinical Decision Support">
+  <data key="d0">FDA Guidance on Clinical Decision Support</data>
+  <data key="d1">regulation</data>
+  <data key="d2">The FDA's guidance requires that AI recommendations include the evidence basis to support clinical decisions.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Citation Recall">
+  <data key="d0">Citation Recall</data>
+  <data key="d1">metric</data>
+  <data key="d2">Citation Recall is a metric that measures the fraction of claims in AI-generated outputs that have supporting citations.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Citation Precision">
+  <data key="d0">Citation Precision</data>
+  <data key="d1">metric</data>
+  <data key="d2">Citation Precision is a metric that evaluates the fraction of citations that accurately support their associated claims.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="FActScore">
+  <data key="d0">FActScore</data>
+  <data key="d1">metric</data>
+  <data key="d2">FActScore is a metric for fine-grained atomic claim verification in citation quality assessment.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="Infrastructure for Document Provenance Tracking">
+  <data key="d0">Infrastructure for Document Provenance Tracking</data>
+  <data key="d1">method</data>
+  <data key="d2">Infrastructure for Document Provenance Tracking is necessary for the practical implementation of citation-grounded AI.</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993614</data>
+  <data key="d6"></data>
+</node>
+<node id="citation quality">
+  <data key="d0">citation quality</data>
+  <data key="d3">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d2">Citation Recall is a metric that assesses the effectiveness of citation grounding in AI-generated outputs.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993615</data>
+  <data key="d6"></data>
+</node>
+<node id="Graph Databases">
+  <data key="d0">Graph Databases</data>
+  <data key="d1">concept</data>
+  <data key="d2">Graph databases are specialized databases designed to efficiently store, query, and traverse complex relationships between data.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993651</data>
+  <data key="d6"></data>
+</node>
+<node id="Neo4j">
+  <data key="d0">Neo4j</data>
+  <data key="d1">organization</data>
+  <data key="d2">Neo4j is a dominant graph database platform offering expressive pattern matching through its Cypher query language for graph traversals.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993651</data>
+  <data key="d6"></data>
+</node>
+<node id="LightRAG">
+  <data key="d0">LightRAG</data>
+  <data key="d1">organization</data>
+  <data key="d2">LightRAG is a lightweight in-memory graph that emphasizes speed over durability for development and small-scale deployments.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993651</data>
+  <data key="d6"></data>
+</node>
+<node id="Microsoft GraphRAG">
+  <data key="d0">Microsoft GraphRAG</data>
+  <data key="d1">organization</data>
+  <data key="d2">Microsoft GraphRAG utilizes Parquet files and Azure storage for efficient cloud-scale data management.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993651</data>
+  <data key="d6"></data>
+</node>
+<node id="FalkorDB">
+  <data key="d0">FalkorDB</data>
+  <data key="d1">organization</data>
+  <data key="d2">FalkorDB is a graph database that provides sub-millisecond latency for real-time application traversals.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993651</data>
+  <data key="d6"></data>
+</node>
+<node id="Pinecone">
+  <data key="d0">Pinecone</data>
+  <data key="d1">organization</data>
+  <data key="d2">Pinecone is a vector store used for semantic embeddings in GraphRAG systems.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993651</data>
+  <data key="d6"></data>
+</node>
+<node id="Weaviate">
+  <data key="d0">Weaviate</data>
+  <data key="d1">organization</data>
+  <data key="d2">Weaviate is a vector store utilized to support semantic embeddings in graph databases.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993651</data>
+  <data key="d6"></data>
+</node>
+<node id="Qdrant">
+  <data key="d0">Qdrant</data>
+  <data key="d1">organization</data>
+  <data key="d2">Qdrant is a vector store for managing semantic embeddings relevant to graph structures.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="ChromaDB">
+  <data key="d0">ChromaDB</data>
+  <data key="d1">organization</data>
+  <data key="d2">ChromaDB serves as a vector store for semantic embeddings in GraphRAG architectures.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="Amazon Neptune">
+  <data key="d0">Amazon Neptune</data>
+  <data key="d1">organization</data>
+  <data key="d2">Amazon Neptune is a graph database known for its scalability in managing entities and relationships.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="PostgreSQL">
+  <data key="d0">PostgreSQL</data>
+  <data key="d1">organization</data>
+  <data key="d2">PostgreSQL is a relational database that serves as a document store for raw text in GraphRAG systems.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="MongoDB">
+  <data key="d0">MongoDB</data>
+  <data key="d1">organization</data>
+  <data key="d2">MongoDB is a NoSQL database utilized as a document store for handling unstructured text in GraphRAG architectures.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="S3">
+  <data key="d0">S3</data>
+  <data key="d1">organization</data>
+  <data key="d2">S3 is a storage service used in GraphRAG systems for storing raw text chunks and large datasets.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="Hybrid Transactional-Analytical Processing (HTAP)">
+  <data key="d0">Hybrid Transactional-Analytical Processing (HTAP)</data>
+  <data key="d1">concept</data>
+  <data key="d2">Hybrid Transactional-Analytical Processing (HTAP) is a processing method that combines both transactional and analytical tasks for databases.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="Federated Graph Architectures">
+  <data key="d0">Federated Graph Architectures</data>
+  <data key="d1">concept</data>
+  <data key="d2">Federated Graph Architectures allow for querying across multiple organizations without requiring centralization of data.</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="Cypher Query Language">
+  <data key="d0">Cypher Query Language</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">Neo4j utilizes the Cypher query language to enable expressive pattern matching for complex graph traversals.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="development">
+  <data key="d0">development</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">LightRAG prioritizes speed in development for small-scale deployments of graph-based applications.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="cloud deployment">
+  <data key="d0">cloud deployment</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">Microsoft GraphRAG leverages Azure storage for efficient handling of large data volumes in cloud environments.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="real-time applications">
+  <data key="d0">real-time applications</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">FalkorDB provides quick traversal capabilities ideal for real-time application needs.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993652</data>
+  <data key="d6"></data>
+</node>
+<node id="Database Technology">
+  <data key="d0">Database Technology</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">Emerging trends highlight advancements and research directions in database technology, particularly within graph databases.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993653</data>
+  <data key="d6"></data>
+</node>
+<node id="Scalability Challenges">
+  <data key="d0">Scalability Challenges</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">Graph databases face unique scalability challenges when it comes to executing distributed operations efficiently.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993653</data>
+  <data key="d6"></data>
+</node>
+<node id="Emerging Trends">
+  <data key="d0">Emerging Trends</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">Emerging trends highlight advancements and research directions in database technology, particularly within graph databases.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993653</data>
+  <data key="d6"></data>
+</node>
+<node id="Vector Stores">
+  <data key="d0">Vector Stores</data>
+  <data key="d3">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d2">Vector stores are integral to GraphRAG architectures for managing and retrieving semantic embeddings effectively.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993654</data>
+  <data key="d6"></data>
+</node>
+<node id="LLM Hallucination">
+  <data key="d0">LLM Hallucination</data>
+  <data key="d1">concept</data>
+  <data key="d2">LLM Hallucination refers to the phenomenon where large language models present fabricated information, posing risks to enterprise AI adoption.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Enterprise AI">
+  <data key="d0">Enterprise AI</data>
+  <data key="d1">concept</data>
+  <data key="d2">Enterprise AI involves the use of artificial intelligence technologies in business contexts for decision-making and operational efficiency.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Safety">
+  <data key="d0">AI Safety</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI Safety is concerned with ensuring that AI systems operate reliably and ethically, minimizing risks such as hallucinations.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Deloitte">
+  <data key="d0">Deloitte</data>
+  <data key="d1">organization</data>
+  <data key="d2">Deloitte is a professional services firm that conducted a survey revealing that 68% of enterprise leaders view hallucination risk as a barrier to LLM deployment.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Enterprise Deployment Patterns">
+  <data key="d0">Enterprise Deployment Patterns</data>
+  <data key="d1">concept</data>
+  <data key="d2">Enterprise Deployment Patterns for hallucination-resistant AI include various techniques such as retrieval-augmented generation and multi-model verification.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Confidence Scoring">
+  <data key="d0">Confidence Scoring</data>
+  <data key="d1">method</data>
+  <data key="d2">Confidence Scoring is a technique used in AI systems to evaluate the reliability of generated outputs.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Quantitative Benchmarks">
+  <data key="d0">Quantitative Benchmarks</data>
+  <data key="d1">data</data>
+  <data key="d2">Quantitative Benchmarks show that GraphRAG reduces hallucination rates by 40-60% compared to standard RAG on complex queries.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="2024 Survey">
+  <data key="d0">2024 Survey</data>
+  <data key="d1">data</data>
+  <data key="d2">The 2024 Survey conducted by Deloitte revealed that a significant portion of enterprise leaders cites hallucination risk as a barrier to LLM deployment.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Multi-Model Verification">
+  <data key="d0">Multi-Model Verification</data>
+  <data key="d1">method</data>
+  <data key="d2">Multi-Model Verification is a technique where a second model validates the claims made by a first model to ensure accuracy.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Human-in-the-Loop Review Workflows">
+  <data key="d0">Human-in-the-Loop Review Workflows</data>
+  <data key="d1">method</data>
+  <data key="d2">Human-in-the-Loop Review Workflows involve human reviewers in the decision-making process for high-stakes situations to enhance reliability.</data>
+  <data key="d3">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993681</data>
+  <data key="d6"></data>
+</node>
+<node id="Hybrid Retrieval Architectures">
+  <data key="d0">Hybrid Retrieval Architectures</data>
+  <data key="d1">concept</data>
+  <data key="d2">Hybrid Retrieval Architectures refer to a combination of vector search and graph traversal methods in information retrieval systems.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Vector RAG">
+  <data key="d0">Vector RAG</data>
+  <data key="d1">method</data>
+  <data key="d2">Vector RAG is a method that retrieves document chunks based on semantic similarity using embedding models.&lt;SEP&gt;Vector RAG is a grounding technique that adds latency to response time while enhancing the grounding process for AI systems.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37&lt;SEP&gt;chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Graph RAG">
+  <data key="d0">Graph RAG</data>
+  <data key="d1">method</data>
+  <data key="d2">Graph RAG is a method that traverses a knowledge graph to find entities and relationships relevant to a query.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Hybrid RAG">
+  <data key="d0">Hybrid RAG</data>
+  <data key="d1">method</data>
+  <data key="d2">Hybrid RAG combines the vector search and graph traversal approaches to enhance context retrieval in queries.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Query Processing Pipeline">
+  <data key="d0">Query Processing Pipeline</data>
+  <data key="d1">concept</data>
+  <data key="d2">The Query Processing Pipeline consists of multiple stages that handle querying and retrieving relevant information within hybrid retrieval architectures.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Embedding Models">
+  <data key="d0">Embedding Models</data>
+  <data key="d1">method</data>
+  <data key="d2">Embedding Models are used in Vector RAG to facilitate the retrieval of semantically similar document chunks.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Reciprocal Rank Fusion">
+  <data key="d0">Reciprocal Rank Fusion</data>
+  <data key="d1">method</data>
+  <data key="d2">Reciprocal Rank Fusion is a technique used in re-ranking to combine scores from different retrieval sources.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Cross-Encoder Re-Ranking">
+  <data key="d0">Cross-Encoder Re-Ranking</data>
+  <data key="d1">method</data>
+  <data key="d2">Cross-Encoder Re-Ranking is a common approach to normalize and combine retrieval scores from heterogeneous sources in hybrid retrieval systems.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Latency Budgets">
+  <data key="d0">Latency Budgets</data>
+  <data key="d1">concept</data>
+  <data key="d2">Latency Budgets refer to the time limits set for query processing stages, particularly in relation to graph traversal performance.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Adaptive Retrieval">
+  <data key="d0">Adaptive Retrieval</data>
+  <data key="d1">concept</data>
+  <data key="d2">Adaptive Retrieval is an advanced hybrid pattern that dynamically adjusts retrieval methods based on query classification.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Iterative Retrieval">
+  <data key="d0">Iterative Retrieval</data>
+  <data key="d1">concept</data>
+  <data key="d2">Iterative Retrieval is an advanced approach that refines queries using initial results to gather additional context.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Multi-Index Retrieval">
+  <data key="d0">Multi-Index Retrieval</data>
+  <data key="d1">concept</data>
+  <data key="d2">Multi-Index Retrieval involves querying multiple specialized knowledge graphs and merging the results.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Retrieval Sources">
+  <data key="d0">Retrieval Sources</data>
+  <data key="d1">concept</data>
+  <data key="d2">Retrieval Sources are various inputs from which data is drawn for processing in hybrid retrieval architectures.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Heterogeneous Sources">
+  <data key="d0">Heterogeneous Sources</data>
+  <data key="d1">concept</data>
+  <data key="d2">Heterogeneous Sources refer to the different types of input data or retrieval methods used in hybrid retrieval systems.</data>
+  <data key="d3">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993711</data>
+  <data key="d6"></data>
+</node>
+<node id="Community Detection">
+  <data key="d0">Community Detection</data>
+  <data key="d1">concept</data>
+  <data key="d2">Community detection is an algorithmic process crucial for identifying clusters of densely connected entities in knowledge graphs.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Hierarchical Summarization">
+  <data key="d0">Hierarchical Summarization</data>
+  <data key="d1">concept</data>
+  <data key="d2">Hierarchical summarization involves generating summaries that organize information across different levels of abstraction in a document corpus.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Leiden Algorithm">
+  <data key="d0">Leiden Algorithm</data>
+  <data key="d1">method</data>
+  <data key="d2">The Leiden algorithm is a community detection method developed at Leiden University, optimizing the detection of internally connected communities.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Louvain Algorithm">
+  <data key="d0">Louvain Algorithm</data>
+  <data key="d1">method</data>
+  <data key="d2">The Louvain algorithm is an earlier method of community detection that the Leiden algorithm improves upon.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Leiden University">
+  <data key="d0">Leiden University</data>
+  <data key="d1">organization</data>
+  <data key="d2">Leiden University is the institution in the Netherlands where the Leiden algorithm was developed.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Modularity Function">
+  <data key="d0">Modularity Function</data>
+  <data key="d1">concept</data>
+  <data key="d2">The modularity function is an optimization parameter used by the Leiden algorithm to enhance community detection performance.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="LLM">
+  <data key="d0">LLM</data>
+  <data key="d1">concept</data>
+  <data key="d2">The LLM (Large Language Model) generates comprehensive summaries for communities by processing their member entities and relationships.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Quality Metrics">
+  <data key="d0">Quality Metrics</data>
+  <data key="d1">concept</data>
+  <data key="d2">Quality metrics for community detection in GraphRAG assess modularity score, summary coherence, and query coverage.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Document Corpus">
+  <data key="d0">Document Corpus</data>
+  <data key="d1">concept</data>
+  <data key="d2">A document corpus is a collection of documents that community detection algorithms analyze to generate hierarchical summaries.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Community Summaries">
+  <data key="d0">Community Summaries</data>
+  <data key="d1">concept</data>
+  <data key="d2">Community summaries are the primary retrieval units generated from community detection processes, used for answering global search queries.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Map-Reduce Approach">
+  <data key="d0">Map-Reduce Approach</data>
+  <data key="d1">method</data>
+  <data key="d2">The map-reduce approach is a computational method utilized to handle large communities by splitting entities into batches for summary generation.</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="Global Search Queries">
+  <data key="d0">Global Search Queries</data>
+  <data key="d3">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d2">Community summaries provide synthesized answers to global search queries, enhancing the query response quality.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993733</data>
+  <data key="d6"></data>
+</node>
+<node id="AI-Powered Decision Support Systems">
+  <data key="d0">AI-Powered Decision Support Systems</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI-Powered Decision Support Systems are systems that utilize AI to assist in decision-making in high-risk categories like healthcare and legal services.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993763</data>
+  <data key="d6"></data>
+</node>
+<node id="Article 13">
+  <data key="d0">Article 13</data>
+  <data key="d1">concept</data>
+  <data key="d2">Article 13 of the EU AI Act requires high-risk AI systems to be designed with sufficient transparency for interpretability of outputs.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993763</data>
+  <data key="d6"></data>
+</node>
+<node id="Article 14">
+  <data key="d0">Article 14</data>
+  <data key="d1">concept</data>
+  <data key="d2">Article 14 mandates human oversight measures for high-risk AI systems, ensuring that natural persons can effectively oversee outputs.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993763</data>
+  <data key="d6"></data>
+</node>
+<node id="Article 17">
+  <data key="d0">Article 17</data>
+  <data key="d1">concept</data>
+  <data key="d2">Article 17 establishes quality management requirements, including validation and testing procedures for AI systems.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993763</data>
+  <data key="d6"></data>
+</node>
+<node id="Article 11">
+  <data key="d0">Article 11</data>
+  <data key="d1">concept</data>
+  <data key="d2">Article 11 outlines specific documentation requirements for AI providers, covering system descriptions and development processes.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993763</data>
+  <data key="d6"></data>
+</node>
+<node id="European Union">
+  <data key="d0">European Union</data>
+  <data key="d1">organization</data>
+  <data key="d2">The European Union is the governing body that introduced the AI Act and is responsible for regulating AI systems deployed in its member states.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993763</data>
+  <data key="d6"></data>
+</node>
+<node id="35 Million Euros">
+  <data key="d0">35 Million Euros</data>
+  <data key="d1">data</data>
+  <data key="d2">The penalty for non-compliance with the EU AI Act can reach up to 35 million euros or 7% of annual global turnover for serious violations.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993764</data>
+  <data key="d6"></data>
+</node>
+<node id="August 2024">
+  <data key="d0">August 2024</data>
+  <data key="d1">date</data>
+  <data key="d2">August 2024 marks the entry into force of the EU AI Act.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993764</data>
+  <data key="d6"></data>
+</node>
+<node id="August 2026">
+  <data key="d0">August 2026</data>
+  <data key="d1">date</data>
+  <data key="d2">August 2026 is the relevant application date for most provisions of the EU AI Act.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993764</data>
+  <data key="d6"></data>
+</node>
+<node id="Retrieval-Augmented Generation Systems">
+  <data key="d0">Retrieval-Augmented Generation Systems</data>
+  <data key="d1">concept</data>
+  <data key="d2">Retrieval-Augmented Generation Systems (RAG) are AI systems designed to utilize external data sources to improve the generation of responses.</data>
+  <data key="d3">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993764</data>
+  <data key="d6"></data>
+</node>
+<node id="AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning">
+  <data key="d0">AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning refers to utilizing AI and knowledge graphs to analyze clinical trial data for improved drug development.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="Clinical Trials Data">
+  <data key="d0">Clinical Trials Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Clinical trials data encompasses registered studies and published results that serve as a critical source of medical knowledge.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="ClinicalTrials.gov">
+  <data key="d0">ClinicalTrials.gov</data>
+  <data key="d1">organization</data>
+  <data key="d2">ClinicalTrials.gov is a database with over 450,000 registered clinical studies, serving as a significant resource for medical research.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="Knowledge Graph-Based AI Systems">
+  <data key="d0">Knowledge Graph-Based AI Systems</data>
+  <data key="d1">method</data>
+  <data key="d2">Knowledge graph-based AI systems provide a scalable method for synthesizing clinical trial evidence for decision-making in drug development.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="Drugs and Biologics">
+  <data key="d0">Drugs and Biologics</data>
+  <data key="d1">concept</data>
+  <data key="d2">Drugs and Biologics refer to therapeutic substances that are modeled as entities in clinical trials knowledge graphs.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="Diseases and Conditions">
+  <data key="d0">Diseases and Conditions</data>
+  <data key="d1">concept</data>
+  <data key="d2">Diseases and Conditions represent health issues that are studied in clinical trials, modeled as entities in knowledge graphs.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="Patient Populations">
+  <data key="d0">Patient Populations</data>
+  <data key="d1">concept</data>
+  <data key="d2">Patient Populations are defined by demographics, comorbidities, and biomarkers that are relevant to clinical trials.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="Clinical Endpoints">
+  <data key="d0">Clinical Endpoints</data>
+  <data key="d1">concept</data>
+  <data key="d2">Clinical Endpoints refer to primary and secondary outcomes measured in clinical trials.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993796</data>
+  <data key="d6"></data>
+</node>
+<node id="Adverse Events">
+  <data key="d0">Adverse Events</data>
+  <data key="d1">concept</data>
+  <data key="d2">Adverse Events are negative side effects that may occur during clinical trials.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Trial Designs">
+  <data key="d0">Trial Designs</data>
+  <data key="d1">concept</data>
+  <data key="d2">Trial Designs encompass various methodologies used in clinical studies, including randomized controlled trials and observational studies.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Regulatory Decisions">
+  <data key="d0">Regulatory Decisions</data>
+  <data key="d1">concept</data>
+  <data key="d2">Regulatory Decisions are judgments made by authorities regarding the approval and oversight of clinical studies and their findings.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Graph-Based Reasoning">
+  <data key="d0">Graph-Based Reasoning</data>
+  <data key="d1">method</data>
+  <data key="d2">Graph-Based Reasoning enables complex queries in clinical trial analysis that traditional database methods cannot efficiently handle.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Pharmaceutical Companies">
+  <data key="d0">Pharmaceutical Companies</data>
+  <data key="d1">organization</data>
+  <data key="d2">Pharmaceutical Companies like Roche, AstraZeneca, and Novartis invest in knowledge graph platforms for clinical development.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Pistoia Alliance">
+  <data key="d0">Pistoia Alliance</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Pistoia Alliance is an industry consortium aimed at promoting standardized ontologies for pharmaceutical knowledge graphs.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Clinical Data Interchange Standards Consortium (CDISC)">
+  <data key="d0">Clinical Data Interchange Standards Consortium (CDISC)</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Clinical Data Interchange Standards Consortium (CDISC) establishes data standards necessary for building clinical trial knowledge graphs.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Real-World Evidence">
+  <data key="d0">Real-World Evidence</data>
+  <data key="d1">concept</data>
+  <data key="d2">Real-World Evidence includes data from sources like electronic health records and patient registries that augment clinical trial data.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Clinical Trials Knowledge Graph">
+  <data key="d0">Clinical Trials Knowledge Graph</data>
+  <data key="d1">concept</data>
+  <data key="d2">Clinical Trials Knowledge Graph refers to a structured representation of clinical trial data, modeling entities such as drugs, diseases, and patient populations.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Safety Signal Detection">
+  <data key="d0">Safety Signal Detection</data>
+  <data key="d1">concept</data>
+  <data key="d2">Safety Signal Detection is a process for identifying adverse events in clinical trials when data from multiple trials are combined.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Automated Systematic Review Generation">
+  <data key="d0">Automated Systematic Review Generation</data>
+  <data key="d1">concept</data>
+  <data key="d2">Automated Systematic Review Generation uses knowledge graphs to identify relevant trials for specific questions and synthesize findings.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Adaptive Trial Design Support">
+  <data key="d0">Adaptive Trial Design Support</data>
+  <data key="d1">concept</data>
+  <data key="d2">Adaptive Trial Design Support involves using graph-based evidence to optimize patient selection criteria and endpoint definitions for clinical trials.</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Drug Development">
+  <data key="d0">Drug Development</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d2">Knowledge Graph-Based AI Systems support Drug Development by synthesizing evidence from clinical trials.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Pharmaceutical Knowledge Graphs">
+  <data key="d0">Pharmaceutical Knowledge Graphs</data>
+  <data key="d3">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d2">The Pistoia Alliance promotes the standardization of ontologies for Pharmaceutical Knowledge Graphs.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993797</data>
+  <data key="d6"></data>
+</node>
+<node id="Grounding Techniques for Safe and Reliable AI Systems">
+  <data key="d0">Grounding Techniques for Safe and Reliable AI Systems</data>
+  <data key="d1">concept</data>
+  <data key="d2">Grounding techniques are methods used in AI systems to connect language model outputs to verifiable knowledge, ensuring reliability and safety.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="AI Grounding">
+  <data key="d0">AI Grounding</data>
+  <data key="d1">concept</data>
+  <data key="d2">AI grounding refers to techniques that align AI model outputs with verifiable external knowledge to enhance factual accuracy.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Formal Verification">
+  <data key="d0">Formal Verification</data>
+  <data key="d1">method</data>
+  <data key="d2">Formal verification mathematically proves that AI model outputs meet specified correctness properties, ensuring reliability.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Knowledge Graph Grounding">
+  <data key="d0">Knowledge Graph Grounding</data>
+  <data key="d1">method</data>
+  <data key="d2">Knowledge graph grounding uses structured representations of knowledge to verify claims generated by models and ensure consistency.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Human-in-the-Loop Design">
+  <data key="d0">Human-in-the-Loop Design</data>
+  <data key="d1">method</data>
+  <data key="d2">Human-in-the-loop design incorporates human feedback and oversight into AI systems to address errors and uncertainties.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Cost-Reliability Tradeoff">
+  <data key="d0">Cost-Reliability Tradeoff</data>
+  <data key="d1">concept</data>
+  <data key="d2">The cost-reliability tradeoff refers to the balance between grounding rigor and the computational resources required, impacting user experience.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Current Research Directions">
+  <data key="d0">Current Research Directions</data>
+  <data key="d1">concept</data>
+  <data key="d2">Current research directions explore self-grounding models, multi-modal grounding, and collaborative grounding among AI agents for output verification.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Self-Grounding Models">
+  <data key="d0">Self-Grounding Models</data>
+  <data key="d1">concept</data>
+  <data key="d2">Self-grounding models are an emerging research direction focused on enabling AI systems to verify their own outputs before presentation.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Multi-Modal Grounding">
+  <data key="d0">Multi-Modal Grounding</data>
+  <data key="d1">concept</data>
+  <data key="d2">Multi-modal grounding involves integrating various data forms, such as images and tables, with text generation to enhance the grounding process.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<node id="Collaborative Grounding">
+  <data key="d0">Collaborative Grounding</data>
+  <data key="d1">concept</data>
+  <data key="d2">Collaborative grounding is an approach where multiple AI agents validate each other's outputs to identify potential errors and improve accuracy.</data>
+  <data key="d3">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1774993823</data>
+  <data key="d6"></data>
+</node>
+<edge source="Graph-Based Retrieval Augmented Generation" target="GraphRAG">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG is an application of the Graph-Based Retrieval Augmented Generation concept focused on enhancing information retrieval.</data>
+  <data key="d9">knowledge-intensive tasks,method implementation</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993493</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI Infrastructure" target="GraphRAG">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG operates within the realm of AI Infrastructure to enable advanced retrieval techniques.</data>
+  <data key="d9">AI application,technology integration</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993493</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Retrieval" target="GraphRAG">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG improves knowledge retrieval by integrating structured knowledge graphs with semantic vector search.</data>
+  <data key="d9">information access,method enhancement</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993493</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Leiden Community Detection Method">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG uses the Leiden Community Detection Method to organize extracted entities into hierarchical communities.</data>
+  <data key="d9">algorithm usage,entity organization</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993493</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Multi-Hop Reasoning">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG supports multi-hop reasoning, allowing it to analyze complex relationships among entities.</data>
+  <data key="d9">capability,relationship analysis</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993493</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Entity Extraction">
+  <data key="d7">1.0</data>
+  <data key="d8">Entity extraction is essential for GraphRAG as it builds the knowledge graph necessary for robust information retrieval.</data>
+  <data key="d9">knowledge graph creation,process requirement</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993494</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Citations">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG provides citation trails to show how individual entities and relationships contribute to each answer, ensuring traceability.</data>
+  <data key="d9">evidence support,traceability</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993494</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Structured Grounding">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG uses structured grounding to reduce hallucination in AI outputs, establishing a reliable foundation for information.</data>
+  <data key="d9">foundation building,hallucination reduction</data>
+  <data key="d10">chunk-5a0ea94d36e16aefbbdb1e52a48a4da2</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993494</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Neo4j">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG architectures leverage Neo4j for effective storage and querying of entity relationships.</data>
+  <data key="d9">architecture,database utilization</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Pinecone">
+  <data key="d7">1.0</data>
+  <data key="d8">Pinecone acts as a vector store for managing semantic embeddings in GraphRAG systems.</data>
+  <data key="d9">semantic embeddings,vector storage</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Amazon Neptune">
+  <data key="d7">1.0</data>
+  <data key="d8">Amazon Neptune is utilized for scalable management of entities and relationships in GraphRAG systems.</data>
+  <data key="d9">entity management,scalability</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="PostgreSQL">
+  <data key="d7">1.0</data>
+  <data key="d8">PostgreSQL serves as a document store for managing raw text chunks in GraphRAG architectures.</data>
+  <data key="d9">document storage,text management</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Vector Stores">
+  <data key="d7">1.0</data>
+  <data key="d8">Vector stores are integral to GraphRAG architectures for managing and retrieving semantic embeddings effectively.</data>
+  <data key="d9">data storage,embedding management</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993654</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="LLM Hallucination">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG is designed to mitigate LLM Hallucination by using structured knowledge graphs in AI generation.</data>
+  <data key="d9">mitigation method,solution</data>
+  <data key="d10">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Knowledge Graph">
+  <data key="d7">1.0</data>
+  <data key="d8">A Knowledge Graph provides structure to GraphRAG's response generation, enhancing accuracy.</data>
+  <data key="d9">accuracy enhancement,foundational structure</data>
+  <data key="d10">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Enterprise Deployment Patterns">
+  <data key="d7">1.0</data>
+  <data key="d8">Enterprise Deployment Patterns include strategies that leverage GraphRAG to reduce hallucinations in AI outputs.</data>
+  <data key="d9">best practices,implementation strategy</data>
+  <data key="d10">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Leiden Algorithm">
+  <data key="d7">1.0</data>
+  <data key="d8">The Leiden algorithm is the standard method for community detection used in GraphRAG's implementations.</data>
+  <data key="d9">community detection method,implementation</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993733</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Community Detection">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG’s function capitalizes on community detection to enhance its search capability.</data>
+  <data key="d9">search capability,system function</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993733</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Article 13">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG's traceability aligns with the transparency requirements of Article 13 for high-risk AI systems.</data>
+  <data key="d9">system design,traceability compliance</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Article 14">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG enables the necessary human oversight outlined in Article 14 through its interface design.</data>
+  <data key="d9">oversight compliance,system interaction</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Article 17">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG must adhere to the quality management requirements stated in Article 17, which poses operational overhead.</data>
+  <data key="d9">deployment challenge,quality assurance</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="EU AI Act">
+  <data key="d7">1.0</data>
+  <data key="d8">The intersection of the EU AI Act with GraphRAG technology creates both challenges and opportunities in its deployment.</data>
+  <data key="d9">intersection,opportunities</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG" target="Knowledge Graph Grounding">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge graph grounding is the methodological basis for the operations of GraphRAG systems in verifying claims.</data>
+  <data key="d9">application,verification system</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Structured Grounding" target="AI Grounding">
+  <data key="d7">1.0</data>
+  <data key="d8">Structured grounding is a more advanced approach under the umbrella of AI grounding, utilizing knowledge graphs.</data>
+  <data key="d9">intermediate method,knowledge utilization</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graphs" target="Healthcare AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge Graphs serve as a foundational technology in the field of Healthcare AI to aid in decision-making.</data>
+  <data key="d9">application,foundational technology</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graphs" target="Clinical Decision Support">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge Graphs are implemented in Clinical Decision Support systems to provide explainable recommendations.</data>
+  <data key="d9">implementation,support system</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graphs" target="Retrieval-Augmented Generation">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge Graphs are utilized in Retrieval-Augmented Generation to improve the capabilities of AI systems in addressing complex clinical queries.</data>
+  <data key="d9">AI capability,method enhancement</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Clinical Decision Support" target="EU AI Act">
+  <data key="d7">1.0</data>
+  <data key="d8">The EU AI Act outlines regulatory requirements that Clinical Decision Support systems must comply with.</data>
+  <data key="d9">compliance,regulatory requirement</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Clinical Decision Support" target="FDA Guidance">
+  <data key="d7">1.0</data>
+  <data key="d8">FDA Guidance provides information to ensure compliance for Clinical Decision Support software.</data>
+  <data key="d9">compliance,regulatory guidance</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="EU AI Act" target="Citation-Grounded AI">
+  <data key="d7">1.0</data>
+  <data key="d8">The EU AI Act requires citation-grounded AI for high-risk systems to ensure compliance with regulations.</data>
+  <data key="d9">compliance,regulation requirement</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="EU AI Act" target="AI-Powered Decision Support Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">The EU AI Act provides a regulatory framework that AI-powered decision support systems must comply with due to their high-risk nature.</data>
+  <data key="d9">compliance requirement,regulatory framework</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="EU AI Act" target="European Union">
+  <data key="d7">1.0</data>
+  <data key="d8">The European Union is the authority that enacted the EU AI Act to regulate AI technologies.</data>
+  <data key="d9">governance,regulatory authority</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="UMLS" target="Healthcare Knowledge Graphs">
+  <data key="d7">1.0</data>
+  <data key="d8">UMLS provides a standardized ontology that supports the development of Healthcare Knowledge Graphs.</data>
+  <data key="d9">foundational ontology,standardization</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Healthcare Knowledge Graphs" target="Mayo Clinic">
+  <data key="d7">1.0</data>
+  <data key="d8">The Mayo Clinic has invested in the development of Healthcare Knowledge Graphs to enhance clinical decision-making.</data>
+  <data key="d9">investment,support</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Healthcare Knowledge Graphs" target="Cleveland Clinic">
+  <data key="d7">1.0</data>
+  <data key="d8">The Cleveland Clinic implements Healthcare Knowledge Graphs in its clinical practices for improved support.</data>
+  <data key="d9">implementation,investment</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Healthcare Knowledge Graphs" target="Memorial Sloan Kettering">
+  <data key="d7">1.0</data>
+  <data key="d8">Memorial Sloan Kettering has developed infrastructure around Healthcare Knowledge Graphs to support clinical decision-making processes.</data>
+  <data key="d9">infrastructure,investment</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Healthcare Knowledge Graphs" target="Electronic Health Records">
+  <data key="d7">1.0</data>
+  <data key="d8">Healthcare Knowledge Graphs incorporate Electronic Health Records as part of the real-world evidence to support clinical decision-making.</data>
+  <data key="d9">data integration,real-world evidence</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Healthcare Knowledge Graphs" target="Clinical Trial Databases">
+  <data key="d7">1.0</data>
+  <data key="d8">Clinical Trial Databases contribute valuable data to Healthcare Knowledge Graphs for substantiating clinical insights.</data>
+  <data key="d9">data source,evidence integration</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993531</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Healthcare Knowledge Graphs" target="Scientific Literature">
+  <data key="d7">1.0</data>
+  <data key="d8">Scientific Literature is integrated into Healthcare Knowledge Graphs to substantiate evidence-based clinical recommendations.</data>
+  <data key="d9">evidence base,knowledge integration</data>
+  <data key="d10">chunk-6f15d160ead15b98ce0ab2ffb63b362a</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993532</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Retrieval-Augmented Generation" target="Hybrid Retrieval Architectures">
+  <data key="d7">1.0</data>
+  <data key="d8">Hybrid Retrieval Architectures are part of the broader framework of Retrieval-Augmented Generation in AI.</data>
+  <data key="d9">AI systems,enhancement method</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Retrieval-Augmented Generation" target="AI Grounding">
+  <data key="d7">1.0</data>
+  <data key="d8">Retrieval-augmented generation serves as a lightweight approach within the broader concept of AI grounding.</data>
+  <data key="d9">basic method,contextual grounding</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Electronic Health Records" target="Vaccine Safety Monitoring">
+  <data key="d7">1.0</data>
+  <data key="d8">Electronic health records provide complementary data that enhances vaccine safety monitoring.</data>
+  <data key="d9">complementary data,enhanced analysis</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Safety Monitoring" target="Vaccine Adverse Event Reporting System">
+  <data key="d7">1.0</data>
+  <data key="d8">Vaccine safety monitoring utilizes the VAERS to collect adverse event reports for analysis.</data>
+  <data key="d9">data collection,public health application</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993567</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Safety Monitoring" target="Brighton Collaboration">
+  <data key="d7">1.0</data>
+  <data key="d8">The Brighton Collaboration enhances vaccine safety monitoring through standardized case definitions.</data>
+  <data key="d9">precision,standardization</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993567</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Safety Monitoring" target="Global Vaccine Safety Initiative">
+  <data key="d7">1.0</data>
+  <data key="d8">The Global Vaccine Safety Initiative promotes international collaboration in vaccine safety monitoring and assessment.</data>
+  <data key="d9">international collaboration,signal detection</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Safety Monitoring" target="Vaccine Safety Datalink">
+  <data key="d7">1.0</data>
+  <data key="d8">The Vaccine Safety Datalink links health data with vaccine safety monitoring for rapid signal assessment.</data>
+  <data key="d9">health data link,safety assessment</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Safety Monitoring" target="Graph Neural Networks">
+  <data key="d7">1.0</data>
+  <data key="d8">Graph neural networks are utilized for automated signal detection in vaccine safety monitoring.</data>
+  <data key="d9">automated detection,safety analysis</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993569</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Safety Monitoring" target="Vaccine Safety Signals">
+  <data key="d7">1.0</data>
+  <data key="d8">Vaccine safety monitoring aims to identify vaccine safety signals through data analysis.</data>
+  <data key="d9">monitoring outcome,safety assessment</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993569</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Adverse Event Reporting System" target="CDC">
+  <data key="d7">1.0</data>
+  <data key="d8">The CDC oversees the Vaccine Adverse Event Reporting System to manage vaccination safety data.</data>
+  <data key="d9">health monitoring,regulatory oversight</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993567</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vaccine Adverse Event Reporting System" target="FDA">
+  <data key="d7">1.0</data>
+  <data key="d8">The FDA regulates the Vaccine Adverse Event Reporting System to ensure safety in vaccination reporting.</data>
+  <data key="d9">health monitoring,regulatory oversight</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Graph-Based Analysis" target="Vaccine Research">
+  <data key="d7">1.0</data>
+  <data key="d8">Graph-based analysis is applied in vaccine research for enhanced safety monitoring.</data>
+  <data key="d9">analytical technique,safety monitoring</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993567</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Brighton Collaboration" target="Adverse Events Following Immunization">
+  <data key="d7">1.0</data>
+  <data key="d8">The Brighton Collaboration develops definitions for adverse events following immunization to standardize reporting and monitoring.</data>
+  <data key="d9">safety definitions,standardization effort</data>
+  <data key="d10">chunk-f5641ec4e871244a183dca81ab477996</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993568</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Graph Neural Networks" target="Graph Databases">
+  <data key="d7">1.0</data>
+  <data key="d8">Graph databases utilize Graph Neural Networks to enhance AI applications through improved data representation.</data>
+  <data key="d9">artificial intelligence,database technology</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Named Entity Recognition" target="Relation Extraction">
+  <data key="d7">1.0</data>
+  <data key="d8">Named Entity Recognition is the preliminary process that precedes Relation Extraction in NLP tasks.</data>
+  <data key="d9">NLP techniques,process sequence</data>
+  <data key="d10">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993587</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Relation Extraction" target="Knowledge Graph">
+  <data key="d7">1.0</data>
+  <data key="d8">Relation Extraction helps in identifying relationships that contribute to the structure of a Knowledge Graph.</data>
+  <data key="d9">connection identification,content structure</data>
+  <data key="d10">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993587</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph" target="GraphRAG Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG Systems utilize entities and relations to construct Knowledge Graphs from raw document text.</data>
+  <data key="d9">knowledge representation,system integration</data>
+  <data key="d10">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993588</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph" target="Community Detection Algorithms">
+  <data key="d7">1.0</data>
+  <data key="d8">Community Detection Algorithms organize entities within a Knowledge Graph into related groups for better retrieval.</data>
+  <data key="d9">grouping entities,semantic organization</data>
+  <data key="d10">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993588</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph" target="Information Extraction">
+  <data key="d7">1.0</data>
+  <data key="d8">Information Extraction plays a crucial role in the creation of Knowledge Graphs by structuring unstructured data.</data>
+  <data key="d9">data transformation,structured representation</data>
+  <data key="d10">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993588</data>
+  <data key="d13"></data>
+</edge>
+<edge source="GraphRAG Systems" target="Hybrid Retrieval Architectures">
+  <data key="d7">1.0</data>
+  <data key="d8">GraphRAG Systems are evaluated under the criteria established for Hybrid Retrieval Architectures, focusing on aspects like reasoning depth and traceability.</data>
+  <data key="d9">evaluation metrics,hybrid method</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Large Language Models" target="Entity Resolution">
+  <data key="d7">1.0</data>
+  <data key="d8">Large Language Models assist in the process of Entity Resolution by helping to identify references to the same entity.</data>
+  <data key="d9">AI application,entity identification</data>
+  <data key="d10">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993587</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Large Language Models" target="Traditional NER Models">
+  <data key="d7">1.0</data>
+  <data key="d8">The performance of Traditional NER Models is compared to Large Language Models which provide improved entity recognition capabilities.</data>
+  <data key="d9">comparison,technological advancement</data>
+  <data key="d10">chunk-dcf301088ebc124f69bef8c917d94389</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993587</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation-Grounded AI" target="Hallucination Problem">
+  <data key="d7">1.0</data>
+  <data key="d8">Citation-Grounded AI addresses the hallucination problem by ensuring traceability of claims in AI responses.</data>
+  <data key="d9">AI ethics,problem-solving</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993614</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation-Grounded AI" target="Retrieval-Then-Cite Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">Retrieval-Then-Cite Systems are one of the methods used to implement citation-grounded AI.</data>
+  <data key="d9">AI implementation,citation method</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation-Grounded AI" target="Graph-Grounded Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">Graph-Grounded Systems are employed to enhance citation-grounded AI through knowledge graphs.</data>
+  <data key="d9">AI implementation,citation method</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation-Grounded AI" target="Model-Level Citation Training">
+  <data key="d7">1.0</data>
+  <data key="d8">Model-Level Citation Training contributes to the development of citation-grounded AI.</data>
+  <data key="d9">AI implementation,citation method</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation-Grounded AI" target="FDA Guidance on Clinical Decision Support">
+  <data key="d7">1.0</data>
+  <data key="d8">The FDA Guidance mandates the use of citation-grounded AI in clinical decisions to ensure evidence-based recommendations.</data>
+  <data key="d9">implementation,regulation requirement</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation-Grounded AI" target="Infrastructure for Document Provenance Tracking">
+  <data key="d7">1.0</data>
+  <data key="d8">Infrastructure for Document Provenance Tracking is crucial for the successful implementation of citation-grounded AI.</data>
+  <data key="d9">AI development,implementation requirement</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993616</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Model-Level Citation Training" target="Perplexity AI">
+  <data key="d7">1.0</data>
+  <data key="d8">Perplexity AI has demonstrated the implementation of Model-Level Citation Training in AI systems.</data>
+  <data key="d9">AI development,organization contribution</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993614</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Model-Level Citation Training" target="Google">
+  <data key="d7">1.0</data>
+  <data key="d8">Google conducts research on citation systems, contributing to Model-Level Citation Training for AI.</data>
+  <data key="d9">AI research,organization contribution</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation Recall" target="citation quality">
+  <data key="d7">1.0</data>
+  <data key="d8">Citation Recall is a metric that assesses the effectiveness of citation grounding in AI-generated outputs.</data>
+  <data key="d9">citation effectiveness,metric evaluation</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Citation Precision" target="citation quality">
+  <data key="d7">1.0</data>
+  <data key="d8">Citation Precision evaluates the quality of citations related to their supporting claims in AI responses.</data>
+  <data key="d9">citation effectiveness,metric evaluation</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="FActScore" target="citation quality">
+  <data key="d7">1.0</data>
+  <data key="d8">FActScore helps verify the accuracy of individual claims within AI-generated outputs.</data>
+  <data key="d9">claim verification,metric evaluation</data>
+  <data key="d10">chunk-13937f8efa1e649021b2562c5c4ce466</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993615</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Graph Databases" target="Scalability Challenges">
+  <data key="d7">1.0</data>
+  <data key="d8">Graph databases face unique scalability challenges when it comes to executing distributed operations efficiently.</data>
+  <data key="d9">database performance,distributed systems</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Neo4j" target="Cypher Query Language">
+  <data key="d7">1.0</data>
+  <data key="d8">Neo4j utilizes the Cypher query language to enable expressive pattern matching for complex graph traversals.</data>
+  <data key="d9">database technology,query functionality</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="LightRAG" target="development">
+  <data key="d7">1.0</data>
+  <data key="d8">LightRAG prioritizes speed in development for small-scale deployments of graph-based applications.</data>
+  <data key="d9">graph solution,speed</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Microsoft GraphRAG" target="cloud deployment">
+  <data key="d7">1.0</data>
+  <data key="d8">Microsoft GraphRAG leverages Azure storage for efficient handling of large data volumes in cloud environments.</data>
+  <data key="d9">data management,storage solution</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="FalkorDB" target="real-time applications">
+  <data key="d7">1.0</data>
+  <data key="d8">FalkorDB provides quick traversal capabilities ideal for real-time application needs.</data>
+  <data key="d9">graph traversal,performance</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993652</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Database Technology" target="Emerging Trends">
+  <data key="d7">1.0</data>
+  <data key="d8">Emerging trends highlight advancements and research directions in database technology, particularly within graph databases.</data>
+  <data key="d9">innovation,research direction</data>
+  <data key="d10">chunk-7ebd7175a1f26b79908061ab57b517a0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993653</data>
+  <data key="d13"></data>
+</edge>
+<edge source="LLM Hallucination" target="Enterprise AI">
+  <data key="d7">1.0</data>
+  <data key="d8">LLM Hallucination poses an existential risk to the adoption of Enterprise AI systems.</data>
+  <data key="d9">adoption barrier,risk</data>
+  <data key="d10">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993681</data>
+  <data key="d13"></data>
+</edge>
+<edge source="LLM Hallucination" target="Deloitte">
+  <data key="d7">1.0</data>
+  <data key="d8">Deloitte's survey indicates that a significant portion of enterprise leaders identifies LLM Hallucination as a primary barrier to deployment.</data>
+  <data key="d9">research,survey results</data>
+  <data key="d10">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enterprise Deployment Patterns" target="Multi-Model Verification">
+  <data key="d7">1.0</data>
+  <data key="d8">Multi-Model Verification is one of the enterprise deployment patterns aimed at ensuring accuracy and reliability in AI outputs.</data>
+  <data key="d9">strategy,verification method</data>
+  <data key="d10">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Enterprise Deployment Patterns" target="Human-in-the-Loop Review Workflows">
+  <data key="d7">1.0</data>
+  <data key="d8">Human-in-the-Loop Review Workflows are part of the best practices for enterprise deployment patterns to enhance decision-making reliability.</data>
+  <data key="d9">decision-making process,reliability enhancement</data>
+  <data key="d10">chunk-05b5cd1a96253bf7b78dbf8d300adadd</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993682</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Vector RAG">
+  <data key="d7">1.0</data>
+  <data key="d8">Hybrid Retrieval Architectures incorporate Vector RAG as one of the methods for retrieving document chunks based on semantic similarity.</data>
+  <data key="d9">method,retrieval approach</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993711</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Graph RAG">
+  <data key="d7">1.0</data>
+  <data key="d8">Hybrid Retrieval Architectures also utilize Graph RAG for traversing knowledge graphs to find relevant entities and relationships.</data>
+  <data key="d9">method,retrieval approach</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Query Processing Pipeline">
+  <data key="d7">1.0</data>
+  <data key="d8">The Query Processing Pipeline is a crucial part of Hybrid Retrieval Architectures, managing the stages of query handling.</data>
+  <data key="d9">architecture,process</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Reciprocal Rank Fusion">
+  <data key="d7">1.0</data>
+  <data key="d8">Reciprocal Rank Fusion is used within Hybrid Retrieval Architectures to normalize and combine scores from different retrieval methods.</data>
+  <data key="d9">re-ranking method,score normalization</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Cross-Encoder Re-Ranking">
+  <data key="d7">1.0</data>
+  <data key="d8">Cross-Encoder Re-Ranking is another technique employed in Hybrid Retrieval Architectures for score normalization from retrieval sources.</data>
+  <data key="d9">re-ranking method,score normalization</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Adaptive Retrieval">
+  <data key="d7">1.0</data>
+  <data key="d8">Adaptive Retrieval is an advanced pattern used in Hybrid Retrieval Architectures that adjusts search methods dynamically based on queries.</data>
+  <data key="d9">flexibility,retrieval pattern</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Iterative Retrieval">
+  <data key="d7">1.0</data>
+  <data key="d8">Iterative Retrieval is an approach in Hybrid Retrieval Architectures that refines queries to enhance the search for additional context.</data>
+  <data key="d9">context expansion,retrieval refinement</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993712</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Multi-Index Retrieval">
+  <data key="d7">1.0</data>
+  <data key="d8">Multi-Index Retrieval is utilized in Hybrid Retrieval Architectures to query various knowledge graphs and combine their results.</data>
+  <data key="d9">knowledge graph querying,results merging</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Retrieval Sources">
+  <data key="d7">1.0</data>
+  <data key="d8">Hybrid Retrieval Architectures utilize different Retrieval Sources to obtain data for processing.</data>
+  <data key="d9">data processing,input sources</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993713</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Hybrid Retrieval Architectures" target="Heterogeneous Sources">
+  <data key="d7">1.0</data>
+  <data key="d8">Hybrid Retrieval Architectures draw from Heterogeneous Sources, which provide diverse input types contributing to the retrieval process.</data>
+  <data key="d9">diversity,input variety</data>
+  <data key="d10">chunk-884ce470afe0321907650814428fae37</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993714</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Vector RAG" target="Grounding Techniques for Safe and Reliable AI Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">Vector RAG is an advanced grounding method associated with increased response time for AI systems.</data>
+  <data key="d9">advanced method,latency impact</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993825</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Community Detection" target="Hierarchical Summarization">
+  <data key="d7">1.0</data>
+  <data key="d8">Community detection facilitates hierarchical summarization by identifying clusters within a knowledge graph.</data>
+  <data key="d9">algorithmic process,knowledge organization</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993733</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Community Detection" target="Document Corpus">
+  <data key="d7">1.0</data>
+  <data key="d8">The document corpus serves as the data source for community detection algorithms to analyze and summarize.</data>
+  <data key="d9">analysis,data source</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993733</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Leiden Algorithm" target="Louvain Algorithm">
+  <data key="d7">1.0</data>
+  <data key="d8">The Leiden algorithm improves upon the Louvain algorithm by ensuring that all discovered communities are internally connected.</data>
+  <data key="d9">community detection,improvement</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993733</data>
+  <data key="d13"></data>
+</edge>
+<edge source="LLM" target="Community Summaries">
+  <data key="d7">1.0</data>
+  <data key="d8">The LLM generates community summaries by processing entities and their relationships presented to it.</data>
+  <data key="d9">context processing,summary generation</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993733</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Community Summaries" target="Global Search Queries">
+  <data key="d7">1.0</data>
+  <data key="d8">Community summaries provide synthesized answers to global search queries, enhancing the query response quality.</data>
+  <data key="d9">information retrieval,synthesis</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993733</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Community Summaries" target="Map-Reduce Approach">
+  <data key="d7">1.0</data>
+  <data key="d8">The map-reduce approach is used to facilitate the generation of community summaries from large communities.</data>
+  <data key="d9">computational method,summary generation</data>
+  <data key="d10">chunk-d384bfeec843c653b989ee99228eeab0</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993734</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI-Powered Decision Support Systems" target="Article 13">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 13 requires that AI-powered decision support systems be designed with transparency for users to understand system outputs.</data>
+  <data key="d9">design mandate,transparency requirement</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI-Powered Decision Support Systems" target="Article 14">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 14 mandates human oversight measures for AI-powered decision support systems to ensure effective review of outputs.</data>
+  <data key="d9">compliance requirement,human oversight</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI-Powered Decision Support Systems" target="Article 17">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 17 establishes quality management requirements that AI-powered decision support systems must follow.</data>
+  <data key="d9">compliance requirement,quality management</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI-Powered Decision Support Systems" target="Article 11">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 11 mandates that AI-powered decision support systems maintain specific documentation covering various operational aspects.</data>
+  <data key="d9">compliance,documentation requirement</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993765</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Article 13" target="Retrieval-Augmented Generation Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 13's transparency requirement specifically applies to Retrieval-Augmented Generation Systems, requiring clarity in output and source indication.</data>
+  <data key="d9">design mandate,transparency requirement</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Article 14" target="Retrieval-Augmented Generation Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 14 mandates human oversight for Retrieval-Augmented Generation Systems to ensure proper review and accountability.</data>
+  <data key="d9">compliance requirement,human oversight</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Article 17" target="Retrieval-Augmented Generation Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 17 sets quality management requirements that Retrieval-Augmented Generation Systems are obliged to follow.</data>
+  <data key="d9">compliance requirement,quality management</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993764</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Article 11" target="Retrieval-Augmented Generation Systems">
+  <data key="d7">1.0</data>
+  <data key="d8">Article 11 outlines that Retrieval-Augmented Generation Systems must keep comprehensive documentation related to their operation and development.</data>
+  <data key="d9">compliance,documentation requirement</data>
+  <data key="d10">chunk-bf191c61f24f06aa1b4b87fbbe8f257b</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993765</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI-Powered Clinical Trial Analysis Using Knowledge Graph Reasoning" target="Clinical Trials Data">
+  <data key="d7">1.0</data>
+  <data key="d8">AI-Powered Clinical Trial Analysis utilizes Clinical Trials Data as a valuable resource for medical knowledge.</data>
+  <data key="d9">analysis,utilization</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993797</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph-Based AI Systems" target="Drug Development">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge Graph-Based AI Systems support Drug Development by synthesizing evidence from clinical trials.</data>
+  <data key="d9">decision-making,evidence synthesis</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993797</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph-Based AI Systems" target="Pharmaceutical Companies">
+  <data key="d7">1.0</data>
+  <data key="d8">Pharmaceutical Companies have invested in Knowledge Graph-Based AI Systems for advancing clinical development.</data>
+  <data key="d9">investment,technology adoption</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993798</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph-Based AI Systems" target="Automated Systematic Review Generation">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge Graph-Based AI Systems automate the process of systematic review generation to improve efficiency in trial synthesis.</data>
+  <data key="d9">efficiency,process improvement</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993798</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph-Based AI Systems" target="Safety Signal Detection">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge Graph-Based AI Systems facilitate Safety Signal Detection by analyzing adverse events across multiple trials.</data>
+  <data key="d9">adverse events,trial analysis</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993798</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Knowledge Graph-Based AI Systems" target="Adaptive Trial Design Support">
+  <data key="d7">1.0</data>
+  <data key="d8">Knowledge Graph-Based AI Systems provide Adaptive Trial Design Support by optimizing trial methodologies based on existing evidence.</data>
+  <data key="d9">patient selection,trial optimization</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993798</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Graph-Based Reasoning" target="Clinical Trials Knowledge Graph">
+  <data key="d7">1.0</data>
+  <data key="d8">Graph-Based Reasoning enhances the analysis capabilities of Clinical Trials Knowledge Graph by enabling complex querying.</data>
+  <data key="d9">analysis capability,methodology</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993797</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Pistoia Alliance" target="Pharmaceutical Knowledge Graphs">
+  <data key="d7">1.0</data>
+  <data key="d8">The Pistoia Alliance promotes the standardization of ontologies for Pharmaceutical Knowledge Graphs.</data>
+  <data key="d9">collaboration,standardization</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993797</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Clinical Data Interchange Standards Consortium (CDISC)" target="Clinical Trials Knowledge Graph">
+  <data key="d7">1.0</data>
+  <data key="d8">The Clinical Data Interchange Standards Consortium (CDISC) provides data standards that facilitate automated construction of Clinical Trials Knowledge Graph.</data>
+  <data key="d9">automation,data standards</data>
+  <data key="d10">chunk-374ba872e4abd46815b626ad73ecb0b9</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993797</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Grounding Techniques for Safe and Reliable AI Systems" target="AI Grounding">
+  <data key="d7">1.0</data>
+  <data key="d8">Grounding techniques are fundamentally based on the principles of AI grounding to improve the accuracy of AI systems.</data>
+  <data key="d9">foundational concept,methodology</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Grounding Techniques for Safe and Reliable AI Systems" target="Human-in-the-Loop Design">
+  <data key="d7">1.0</data>
+  <data key="d8">Human-in-the-loop design complements grounding techniques by addressing and correcting potential errors in AI systems.</data>
+  <data key="d9">component,error correction</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Grounding Techniques for Safe and Reliable AI Systems" target="Cost-Reliability Tradeoff">
+  <data key="d7">1.0</data>
+  <data key="d8">The cost-reliability tradeoff is a significant consideration when applying grounding techniques in AI systems.</data>
+  <data key="d9">resource management,user experience</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI Grounding" target="Formal Verification">
+  <data key="d7">1.0</data>
+  <data key="d8">Formal verification represents the highest standard in grounding techniques for AI systems to ensure correctness.</data>
+  <data key="d9">correctness assurance,rigorous method</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993825</data>
+  <data key="d13"></data>
+</edge>
+<edge source="AI Grounding" target="Current Research Directions">
+  <data key="d7">1.0</data>
+  <data key="d8">Current research directions are paving the way for innovations in AI grounding methods.</data>
+  <data key="d9">advancement,exploration</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993825</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Current Research Directions" target="Self-Grounding Models">
+  <data key="d7">1.0</data>
+  <data key="d8">Research directions currently focus on developing self-grounding models for internal output verification.</data>
+  <data key="d9">innovation,output verification</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Current Research Directions" target="Multi-Modal Grounding">
+  <data key="d7">1.0</data>
+  <data key="d8">Current research directions are exploring multi-modal grounding to enhance text generation with various data forms.</data>
+  <data key="d9">integration,text generation</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Current Research Directions" target="Collaborative Grounding">
+  <data key="d7">1.0</data>
+  <data key="d8">Current research directions include collaborative grounding for multiple AI agents to cross-check outputs.</data>
+  <data key="d9">error reduction,peer validation</data>
+  <data key="d10">chunk-f13ffed8f2c81a7ff9b29900ecd42a3e</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1774993825</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>
