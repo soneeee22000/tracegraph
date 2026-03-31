@@ -1,0 +1,14 @@
+Title: Named Entity Recognition and Relation Extraction for Knowledge Graph Construction
+Domain: NLP, Information Extraction
+
+The quality of a knowledge graph is fundamentally determined by the accuracy of its entity extraction and relation extraction pipelines. In the context of GraphRAG systems, these extraction pipelines operate on raw document text to identify entities (nodes) and their relationships (edges), forming the structured foundation upon which all downstream reasoning depends.
+
+Modern entity extraction leverages large language models (LLMs) as the primary extraction engine. Given a text passage, the LLM is prompted to identify entities along with their types (person, organization, concept, technology, location, event) and descriptions. The key advantage over traditional NER models is the LLM's ability to recognize domain-specific entities without fine-tuning, handling specialized terminology in fields like medicine, law, and finance out of the box.
+
+Relation extraction follows entity extraction, identifying how entities are connected. Common relation types include causal (A causes B), temporal (A precedes B), compositional (A is part of B), functional (A performs B), and associative (A is related to B). LLM-based extraction can identify nuanced relationships that rule-based systems miss, but at the cost of occasional hallucinated relationships that require validation.
+
+Entity resolution — the process of determining that "WHO", "World Health Organization", and "the WHO" refer to the same entity — remains a significant challenge. Techniques include string similarity matching, embedding-based clustering, and LLM-guided disambiguation. Poor entity resolution leads to fragmented graphs with duplicate nodes, degrading retrieval quality.
+
+Community detection algorithms (Leiden, Louvain, hierarchical clustering) group related entities into semantic communities. Each community receives an LLM-generated summary that captures its collective knowledge. These community summaries enable global search — answering questions that span the entire corpus by synthesizing information across communities rather than individual chunks.
+
+Recent advances include incremental graph updates (adding new documents without rebuilding the entire graph), multi-modal entity extraction (from text, tables, and images), and confidence-scored relationships that allow retrieval systems to filter by extraction certainty.

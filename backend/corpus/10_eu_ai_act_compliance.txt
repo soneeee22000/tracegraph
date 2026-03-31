@@ -1,0 +1,16 @@
+Title: EU AI Act Compliance Requirements for AI-Powered Decision Support Systems
+Domain: AI Regulation, Legal Compliance
+
+The European Union's AI Act, which entered into force in August 2024, establishes the world's first comprehensive regulatory framework for artificial intelligence. For AI systems deployed in high-risk categories — including healthcare, legal, financial services, and employment — the Act mandates specific requirements around transparency, traceability, and human oversight that directly impact how retrieval-augmented generation systems must be designed.
+
+Article 13 requires high-risk AI systems to be designed with sufficient transparency to enable users to "interpret the system's output and use it appropriately." For RAG and GraphRAG systems, this means providing clear indication of the sources used to generate each response, the confidence level of the system's output, and the limitations of the underlying knowledge base.
+
+Article 14 mandates human oversight measures, requiring that high-risk AI systems "can be effectively overseen by natural persons." In practice, this requires user interfaces that allow human reviewers to trace AI recommendations back to their evidence base, override incorrect outputs, and understand the reasoning path that led to each conclusion. GraphRAG's inherent traceability through knowledge graph citation chains provides a strong foundation for meeting this requirement.
+
+Article 17 establishes quality management requirements, including "examination, test and validation procedures" for AI systems. For GraphRAG deployments, this translates to regular audits of knowledge graph quality, validation of entity extraction accuracy, testing of retrieval relevance, and monitoring of hallucination rates in production.
+
+The Act defines specific documentation requirements under Article 11, mandating that providers maintain technical documentation covering the AI system's general description, detailed information about its development, training, and testing processes, and information about monitoring and updating procedures. For GraphRAG systems, this includes documenting the document corpus, entity extraction methodology, graph construction parameters, and retrieval algorithms.
+
+Penalties for non-compliance are significant: up to 35 million euros or 7% of annual global turnover for the most serious violations. Companies deploying AI in the EU market must ensure their systems meet these requirements by the relevant application dates, with most provisions applying from August 2026.
+
+The intersection of the EU AI Act with GraphRAG technology creates both challenges and opportunities. The traceability requirements align naturally with GraphRAG's citation capabilities, potentially making GraphRAG the preferred architecture for regulated AI deployments. However, the documentation and quality management requirements add significant operational overhead that must be built into the development and deployment process.

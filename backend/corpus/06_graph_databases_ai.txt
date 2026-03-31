@@ -1,0 +1,14 @@
+Title: Graph Databases as AI Infrastructure: From Neo4j to Purpose-Built Knowledge Stores
+Domain: Database Technology, AI Infrastructure
+
+Graph databases have evolved from niche analytical tools to critical infrastructure for AI applications. The convergence of knowledge graphs, retrieval-augmented generation, and graph neural networks has created unprecedented demand for databases that can efficiently store, query, and traverse relationship-rich data at scale.
+
+Neo4j remains the dominant graph database, with its Cypher query language providing expressive pattern matching for complex graph traversals. The introduction of native vector search in Neo4j 5.x (2023-2024) enabled hybrid queries that combine structural graph patterns with semantic similarity, directly supporting GraphRAG architectures. A typical query might find all entities within two hops of a given concept that also have high semantic similarity to the user's question.
+
+Purpose-built GraphRAG storage solutions have emerged to address the specific needs of retrieval systems. LightRAG uses a lightweight in-memory graph with JSON persistence, trading durability for speed in development and small-scale deployments. Microsoft GraphRAG uses Parquet files and optional Azure storage for cloud-scale deployments. FalkorDB (formerly RedisGraph) provides sub-millisecond traversal latency for real-time applications.
+
+The storage architecture for a production GraphRAG system typically includes three layers: a vector store for semantic embeddings (Pinecone, Weaviate, Qdrant, ChromaDB), a graph store for entities and relationships (Neo4j, FalkorDB, Amazon Neptune), and a document store for raw text chunks (PostgreSQL, MongoDB, S3). The retrieval layer orchestrates queries across all three stores, combining vector similarity scores with graph traversal results.
+
+Scalability challenges emerge at different levels. Vector stores scale horizontally with standard distributed systems patterns. Graph databases face unique challenges: distributed graph traversal requires cross-partition communication, and community detection algorithms have super-linear complexity. The practical limit for single-instance GraphRAG deployments is approximately 10-50 million entities, depending on graph density and query patterns.
+
+Emerging trends include hybrid transactional-analytical processing (HTAP) for graphs, temporal knowledge graphs that maintain historical states, and federated graph architectures that enable cross-organizational queries without centralizing sensitive data.

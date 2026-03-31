@@ -1,0 +1,14 @@
+Title: Real-World Evidence and Vaccine Safety Monitoring Through Graph-Based Analysis
+Domain: Vaccine Research, Pharmacovigilance
+
+Vaccine safety monitoring represents one of the most critical applications of knowledge graph technology in public health. The Vaccine Adverse Event Reporting System (VAERS), maintained by the CDC and FDA, collects reports of adverse events following vaccination. However, the sheer volume of reports and the complexity of distinguishing causal relationships from coincidental temporal associations makes traditional analysis insufficient.
+
+Graph-based approaches to vaccine pharmacovigilance model the relationships between vaccines, adverse events, patient demographics, temporal patterns, and confounding factors. Entity extraction from VAERS reports, clinical trial data, and published literature creates a comprehensive knowledge graph that enables multi-hop reasoning about vaccine safety signals.
+
+For example, a traditional database query might find that Event X was reported after Vaccine Y in Z patients. A knowledge graph approach can additionally reveal that Event X shares a biological mechanism with known effects of Adjuvant A used in Vaccine Y, that patients with Condition B are disproportionately affected, and that similar patterns were observed with related vaccines in the same therapeutic class. This structured reasoning provides the context necessary for informed regulatory decisions.
+
+The Brighton Collaboration has developed standardized case definitions for adverse events following immunization (AEFI), providing a controlled vocabulary that improves the precision of knowledge graph entity extraction in this domain. The Global Vaccine Safety Initiative (GVSI) by WHO promotes international collaboration in signal detection and assessment.
+
+Real-world evidence from electronic health records, insurance claims databases, and vaccine registries provides complementary data to enhance the knowledge graph. Studies using the Vaccine Safety Datalink (VSD), which covers approximately 12 million individuals annually, have demonstrated the value of linking structured health data with knowledge graph reasoning for rapid safety signal assessment.
+
+Current research focuses on automated signal detection using graph neural networks, temporal knowledge graphs that capture the evolution of safety evidence over time, and federated approaches that enable multi-institutional analysis without sharing patient-level data.

@@ -1,0 +1,14 @@
+Title: Citation-Grounded AI: Moving Beyond Hallucination to Verifiable Truth
+Domain: AI Safety, Trustworthy AI
+
+The fundamental challenge of large language models in enterprise and regulated environments is the hallucination problem — models generate plausible-sounding but factually incorrect statements with the same confidence as accurate ones. Citation-grounded AI addresses this by requiring every claim in an AI-generated response to be traceable to a specific source document, passage, or knowledge graph entity.
+
+Three approaches to citation grounding have emerged. First, retrieval-then-cite systems (RAG with attribution) retrieve relevant passages and generate answers that reference specific chunks. Second, graph-grounded systems (GraphRAG) trace reasoning paths through knowledge graphs, providing structural evidence chains. Third, model-level citation training teaches LLMs to generate inline citations as part of their output, as demonstrated by systems like Perplexity AI and Google's research citations.
+
+The distinction between correctness and faithfulness is critical. A response can be factually correct but unfaithfully cited — the right answer supported by the wrong evidence. Conversely, a response can be faithfully cited (accurately reflecting its sources) but factually incorrect because the sources themselves contain errors. Robust citation systems must address both dimensions.
+
+Evaluation metrics for citation quality include Citation Recall (what fraction of claims have supporting citations), Citation Precision (what fraction of citations actually support their associated claims), and FActScore (fine-grained atomic claim verification). No single benchmark currently covers all dimensions of citation quality, representing a significant gap in the field.
+
+For regulated industries — healthcare, legal, financial services — citation grounding is not optional. The EU AI Act requires high-risk AI systems to provide adequate traceability and documentation. The FDA's guidance on clinical decision support mandates that AI recommendations be accompanied by the evidence basis. Financial regulators expect AI-driven risk assessments to cite the data sources and models used.
+
+The practical implementation of citation-grounded AI requires infrastructure for document provenance tracking, version-controlled knowledge bases, and user interfaces that make citation chains navigable and verifiable by human reviewers. This "human-in-the-loop" verification capability is essential for building trust in AI-generated outputs.

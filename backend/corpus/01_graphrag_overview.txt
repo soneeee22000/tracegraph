@@ -1,0 +1,12 @@
+Title: Graph-Based Retrieval Augmented Generation for Knowledge-Intensive Tasks
+Domain: AI Infrastructure, Knowledge Retrieval
+
+GraphRAG represents a paradigm shift in retrieval-augmented generation by combining semantic vector search with structured knowledge graph traversal. Traditional RAG systems rely solely on vector similarity to find relevant document chunks, which works well for simple factoid queries but fails when questions require connecting information across multiple documents or understanding complex entity relationships.
+
+The core innovation of GraphRAG is the construction of a knowledge graph during the indexing phase. Documents are processed to extract entities (people, organizations, concepts, technologies) and the relationships between them. These entities and relationships are then organized into hierarchical communities using algorithms like the Leiden community detection method. Each community receives a summary that captures the collective knowledge of its members.
+
+At query time, GraphRAG employs two complementary search strategies. Local search focuses on specific entities and their immediate neighborhoods in the graph, ideal for questions about particular topics. Global search leverages community summaries to answer broad, thematic questions that require synthesizing information across the entire corpus. Hybrid search combines both approaches for comprehensive retrieval.
+
+Key advantages over traditional RAG include multi-hop reasoning (following chains of relationships), reduced hallucination through structured grounding, and the ability to provide citation trails showing exactly which entities and relationships contributed to each answer. This traceability is critical for enterprise and regulated environments where AI outputs must be auditable and verifiable.
+
+The primary challenges remain cost (3-5x more expensive than vector-only RAG due to entity extraction), scalability (performance plateaus around 5-15M tokens), and the lack of standardized citation formats across implementations.

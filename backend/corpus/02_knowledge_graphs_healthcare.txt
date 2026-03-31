@@ -1,0 +1,12 @@
+Title: Knowledge Graphs in Healthcare Decision Support Systems
+Domain: Healthcare AI, Clinical Decision Support
+
+Knowledge graphs have emerged as a foundational technology for healthcare AI systems that require explainable, traceable reasoning. In clinical settings, the ability to trace an AI recommendation back to its source evidence is not just a nice-to-have feature — it is a regulatory requirement under frameworks like the EU AI Act and FDA guidance on clinical decision support software.
+
+Healthcare knowledge graphs typically model entities such as diseases, symptoms, medications, procedures, clinical trials, biomarkers, and patient demographics. Relationships capture clinical associations: a medication treats a disease, a biomarker indicates a condition, a clinical trial evaluates an intervention. When combined with retrieval-augmented generation, these graphs enable AI systems that can answer complex clinical queries like "What are the contraindications for Drug X in patients with comorbidity Y?" by traversing the graph rather than relying on pattern matching in text.
+
+The UMLS (Unified Medical Language System) maintained by the National Library of Medicine provides a foundational ontology with over 4.4 million concepts and 16 million relationships. SNOMED CT, ICD-10, and RxNorm provide additional standardized vocabularies. Modern healthcare knowledge graphs build upon these standards while incorporating real-world evidence from electronic health records, clinical trial databases, and scientific literature.
+
+Key challenges in healthcare GraphRAG include maintaining temporal accuracy (treatment guidelines change frequently), handling uncertainty and conflicting evidence, ensuring patient privacy during graph construction, and validating that AI-generated clinical recommendations are supported by current evidence-based guidelines.
+
+Organizations like the Mayo Clinic, Cleveland Clinic, and Memorial Sloan Kettering have invested heavily in knowledge graph infrastructure to support clinical decision-making. Pharmaceutical companies use knowledge graphs for drug discovery, adverse event detection, and regulatory compliance documentation.

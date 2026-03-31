@@ -1,0 +1,12 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+graph_store/
+.DS_Store
+dist/
+build/
+*.egg-info/
+.ruff_cache/
+.mypy_cache/

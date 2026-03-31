@@ -1,0 +1,14 @@
+Title: Hybrid Retrieval Architectures: Combining Vector Search with Graph Traversal
+Domain: Information Retrieval, AI Systems Design
+
+The evolution of retrieval-augmented generation has produced three distinct architectural paradigms, each with different strengths. Vector RAG retrieves document chunks based on semantic similarity using embedding models. Graph RAG traverses a knowledge graph to find entities and relationships relevant to the query. Hybrid RAG combines both approaches, using vector similarity to identify starting points and graph traversal to expand context along relationship paths.
+
+In a hybrid retrieval architecture, the query processing pipeline operates in several stages. First, the query is embedded and matched against the vector store to find semantically similar chunks. Second, entities mentioned in those chunks are identified and located in the knowledge graph. Third, the graph is traversed from those seed entities to discover related entities, relationships, and community summaries within a configurable hop distance. Fourth, all retrieved context — chunks, entities, relationships, and summaries — is assembled and ranked by relevance before being passed to the generation model.
+
+The re-ranking stage is critical for hybrid architectures. Different retrieval sources produce scores on different scales (cosine similarity for vectors, path length or connection strength for graphs). Reciprocal rank fusion (RRF) and cross-encoder re-ranking are common approaches to normalize and combine scores from heterogeneous sources. Recent work on learned sparse-dense hybrid retrieval has shown promise for further improving ranking quality.
+
+Production considerations for hybrid retrieval include latency budgets (graph traversal adds 50-200ms depending on graph size and hop distance), caching strategies (frequently traversed subgraphs can be materialized), and graceful degradation (if the graph store is unavailable, the system should fall back to vector-only retrieval).
+
+Advanced hybrid patterns include adaptive retrieval (dynamically choosing between local, global, and hybrid search based on query classification), iterative retrieval (using initial results to refine the query and retrieve additional context), and multi-index retrieval (querying multiple specialized knowledge graphs and merging results).
+
+Evaluation of hybrid retrieval systems requires metrics beyond traditional information retrieval measures. In addition to precision and recall, GraphRAG systems should be evaluated on reasoning depth (number of hops in supporting evidence chains), coverage (fraction of relevant entities discovered), and traceability (ability to reconstruct the retrieval path for each generated claim).

@@ -1,0 +1,14 @@
+Title: Community Detection and Hierarchical Summarization in Knowledge Graphs
+Domain: Graph Algorithms, Data Science
+
+Community detection is the algorithmic backbone of GraphRAG's global search capability. By identifying clusters of densely connected entities within the knowledge graph, community detection enables the generation of hierarchical summaries that capture the major themes and topics across the entire document corpus. These summaries allow the system to answer broad, thematic questions that would be impossible to address through local entity lookup alone.
+
+The Leiden algorithm, developed at Leiden University in the Netherlands, has become the standard community detection method for GraphRAG implementations. Leiden improves upon the earlier Louvain algorithm by guaranteeing that all discovered communities are internally connected — a property that Louvain sometimes violates. The algorithm iteratively optimizes a modularity function, merging and splitting communities until a stable partition is achieved. The resolution parameter controls community granularity: lower values produce fewer, larger communities; higher values produce more, smaller communities.
+
+Hierarchical community structures emerge naturally from iterative application of community detection at different resolution levels. A three-level hierarchy might organize entities into 5-10 top-level domains, 50-100 topic clusters, and 500-1000 fine-grained entity groups. Each level receives its own LLM-generated summary, creating a pyramid of knowledge that can be queried at different levels of abstraction.
+
+The summarization process is computationally expensive but critical for quality. Each community's member entities, their descriptions, and their internal relationships are compiled into a context window and presented to an LLM with instructions to generate a comprehensive summary. For large communities, a map-reduce approach splits the entities into batches, generates partial summaries, and then synthesizes them into a final community summary.
+
+Community summaries serve as the primary retrieval unit for global search queries. When a user asks a broad question like "What are the main approaches to reducing AI hallucination?", the system retrieves the most relevant community summaries rather than individual chunks or entities. This provides a comprehensive, synthesized answer that draws on information distributed across the entire corpus.
+
+Quality metrics for community detection in GraphRAG include modularity score (how well-separated communities are), summary coherence (how well each summary captures its community's knowledge), and query coverage (what fraction of global queries can be answered using community summaries alone).
