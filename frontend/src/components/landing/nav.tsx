@@ -86,7 +86,7 @@ export function Nav() {
             asChild
             className="bg-[#6366f1] hover:bg-[#5558e8] text-white px-4 py-2 rounded-lg text-sm font-medium transition-all hover:shadow-[0_0_20px_rgba(99,102,241,0.3)]"
           >
-            <Link href="#demo">
+            <Link href="/explorer">
               Get Started
               <svg
                 viewBox="0 0 24 24"
@@ -135,7 +135,7 @@ export function Nav() {
               asChild
               className="bg-[#6366f1] hover:bg-[#5558e8] text-white w-full mt-2"
             >
-              <Link href="#demo">Get Started</Link>
+              <Link href="/explorer">Get Started</Link>
             </Button>
           </div>
         </div>
