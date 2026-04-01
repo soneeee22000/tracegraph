@@ -1,6 +1,11 @@
 "use client";
 
 import { useState, useCallback, useEffect } from "react";
+import {
+  Panel,
+  Group as PanelGroup,
+  Separator as PanelResizeHandle,
+} from "react-resizable-panels";
 import GraphViewer from "@/components/graph-viewer";
 import QueryPanel from "@/components/query-panel";
 import CitationTrail from "@/components/citation-trail";
@@ -174,37 +179,58 @@ export default function HomePage() {
         />
       </div>
 
-      {/* Main content */}
-      <div className="flex flex-1 overflow-hidden">
+      {/* Main content — resizable panels */}
+      <PanelGroup orientation="horizontal" className="flex-1">
         {/* Graph visualization */}
-        <div className="flex-1 p-3">
-          <GraphViewer data={graphData} onNodeSelect={handleNodeSelect} />
-        </div>
-
-        {/* Right sidebar */}
-        <div className="flex w-96 flex-col border-l border-border">
-          <div className="flex-1 overflow-y-auto border-b border-border">
-            <div className="px-3 pt-3">
-              <h2 className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
-                AI Response
-              </h2>
-            </div>
-            <AnswerPanel
-              queryResult={queryResult}
-              comparisonResult={comparisonResult}
-            />
+        <Panel defaultSize={65} minSize={35}>
+          <div className="h-full p-3">
+            <GraphViewer data={graphData} onNodeSelect={handleNodeSelect} />
           </div>
+        </Panel>
 
-          <div className="flex-1 overflow-y-auto">
-            <div className="px-3 pt-3">
-              <h2 className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
-                Citation Trail
-              </h2>
-            </div>
-            <CitationTrail citations={citations} selectedNode={selectedNode} />
-          </div>
-        </div>
-      </div>
+        <PanelResizeHandle className="w-1.5 bg-border/50 hover:bg-primary/40 active:bg-primary/60 transition-colors cursor-col-resize" />
+
+        {/* Right sidebar — vertically resizable */}
+        <Panel defaultSize={35} minSize={20}>
+          <PanelGroup orientation="vertical">
+            {/* AI Response */}
+            <Panel defaultSize={comparisonResult ? 70 : 50} minSize={20}>
+              <div className="flex h-full flex-col overflow-hidden">
+                <div className="px-3 pt-3 pb-1 shrink-0">
+                  <h2 className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+                    AI Response
+                  </h2>
+                </div>
+                <div className="flex-1 overflow-y-auto">
+                  <AnswerPanel
+                    queryResult={queryResult}
+                    comparisonResult={comparisonResult}
+                  />
+                </div>
+              </div>
+            </Panel>
+
+            <PanelResizeHandle className="h-1.5 bg-border/50 hover:bg-primary/40 active:bg-primary/60 transition-colors cursor-row-resize" />
+
+            {/* Citation Trail */}
+            <Panel defaultSize={comparisonResult ? 30 : 50} minSize={15}>
+              <div className="flex h-full flex-col overflow-hidden">
+                <div className="px-3 pt-3 pb-1 shrink-0">
+                  <h2 className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+                    Citation Trail
+                  </h2>
+                </div>
+                <div className="flex-1 overflow-y-auto">
+                  <CitationTrail
+                    citations={citations}
+                    selectedNode={selectedNode}
+                  />
+                </div>
+              </div>
+            </Panel>
+          </PanelGroup>
+        </Panel>
+      </PanelGroup>
     </div>
   );
 }
