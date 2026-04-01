@@ -141,6 +141,7 @@ Hybrid search result with AI response and 10 traced citations, each linked to so
 
 | Feature               | Details                                                                                           |
 | --------------------- | ------------------------------------------------------------------------------------------------- |
+| **Resizable Panels**  | Drag-to-resize graph, AI response, and citation trail — comfortable reading at any viewport size  |
 | **Demo Mode**         | Frontend works without backend — ships with sample graph data (24 entities, 29 relations)         |
 | **Entity Types**      | Concepts, technologies, organizations, regulations, persons, documents — each with distinct color |
 | **Real-time API**     | FastAPI backend with async LightRAG, Swagger docs at `/docs`                                      |
@@ -244,7 +245,9 @@ sequenceDiagram
 | **Embeddings**       | text-embedding-3-small           | 1536-dim vectors for semantic search       |
 | **Graph Store**      | NetworkX + GraphML               | In-memory graph with file persistence      |
 | **Vector Store**     | Nano Vector DB                   | Lightweight cosine similarity search       |
+| **Panels**           | react-resizable-panels v4        | Drag-to-resize graph/sidebar/citations     |
 | **Containerization** | Docker Compose                   | Single-command full stack deployment       |
+| **Hosting**          | Vercel + Render                  | Frontend CDN + Backend Docker container    |
 
 <br/>
 
@@ -429,19 +432,33 @@ tracegraph/
 │   │   ├── graphrag.py          # LightRAG engine wrapper
 │   │   ├── models.py            # Pydantic schemas
 │   │   └── config.py            # Env-based settings
-│   ├── corpus/                  # 12 source documents
-│   ├── graph_store/             # Generated: GraphML + vector DBs
+│   ├── corpus/                  # 12 source documents (.txt)
+│   ├── graph_store/             # Pre-ingested: GraphML + vector DBs
 │   ├── requirements.txt
 │   └── Dockerfile
 ├── frontend/
 │   ├── src/
-│   │   ├── app/                 # Next.js App Router
-│   │   ├── components/          # 5 React components
+│   │   ├── app/
+│   │   │   ├── page.tsx         # Landing page (13 sections)
+│   │   │   └── explorer/
+│   │   │       └── page.tsx     # Graph explorer (resizable panels)
+│   │   ├── components/
+│   │   │   ├── landing/         # 13 landing page sections
+│   │   │   ├── ui/              # shadcn/ui components
+│   │   │   ├── graph-viewer.tsx # Force-directed graph
+│   │   │   ├── query-panel.tsx  # Search modes + compare toggle
+│   │   │   ├── answer-panel.tsx # AI response + comparison view
+│   │   │   └── citation-trail.tsx # Source provenance viewer
 │   │   ├── lib/                 # API client, colors, sample data
 │   │   └── types/               # TypeScript interfaces
+│   ├── public/                  # Favicons (SVG, PNG, ICO)
 │   ├── package.json
 │   └── Dockerfile
+├── docs/
+│   ├── LANDING-PAGE.md          # Landing page design specification
+│   └── assets/                  # Logo SVG
 ├── docker-compose.yml
+├── render.yaml                  # Render blueprint
 ├── LICENSE
 └── README.md
 ```
@@ -472,11 +489,22 @@ tracegraph/
 
 ## Deployment
 
-| Platform    | Command                            | Notes                             |
-| ----------- | ---------------------------------- | --------------------------------- |
-| **Docker**  | `docker compose up -d`             | Full stack, self-hosted           |
-| **Vercel**  | `cd frontend && npx vercel --prod` | Set `NEXT_PUBLIC_API_URL` env var |
-| **Railway** | `cd backend && railway up`         | Set all env vars in dashboard     |
+### Live Demo
+
+| Component          | URL                                                                            | Platform         |
+| ------------------ | ------------------------------------------------------------------------------ | ---------------- |
+| **Landing Page**   | [tracegraph.vercel.app](https://tracegraph.vercel.app)                         | Vercel (Hobby)   |
+| **Graph Explorer** | [tracegraph.vercel.app/explorer](https://tracegraph.vercel.app/explorer)       | Vercel (Hobby)   |
+| **Backend API**    | [tracegraph-ls2t.onrender.com](https://tracegraph-ls2t.onrender.com)           | Render (Starter) |
+| **API Docs**       | [tracegraph-ls2t.onrender.com/docs](https://tracegraph-ls2t.onrender.com/docs) | Swagger UI       |
+
+### Self-hosting
+
+| Platform   | Command                             | Notes                             |
+| ---------- | ----------------------------------- | --------------------------------- |
+| **Docker** | `docker compose up -d`              | Full stack, self-hosted           |
+| **Vercel** | `cd frontend && npx vercel --prod`  | Set `NEXT_PUBLIC_API_URL` env var |
+| **Render** | Connect repo, set root to `backend` | Docker runtime, set env vars      |
 
 <br/>
 
